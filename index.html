@@ -1,10 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
-        <title>BananaTube</title>   
-            <p>Monkey Business</p>
-            <p> It's bananas!!!</p>
+        <meta charset="utf-8"/>
+        <title>Ejemplos de formularios</title>
     </head>
-        <body>
-            <img scr=https://www.google.es/imgres?imgurl=https%3A%2F%2Fimg00.deviantart.net%2F1c79%2Fi%2F2007%2F333%2F0%2Fa%2Fmonkey_eating_live_banana_2_by_ai_nikoniko.jpg&imgrefurl=https%3A%2F%2Fai-nikoniko.deviantart.com%2Fart%2FMonkey-eating-Live-banana-2-70963262&docid=iPirxtaco-xXTM&tbnid=ZOTO5F3KyPo-MM%3A&vet=10ahUKEwijvvy-3vDXAhWDwxQKHTCNC_UQMwg1KA8wDw..i&w=600&h=450&bih=869&biw=1280&q=monkey%20eating%20banana%20drawing&ved=0ahUKEwijvvy-3vDXAhWDwxQKHTCNC_UQMwg1KA8wDw&iact=mrc&uact=8>
-            </body> 
-</html>
+     <body>
+         <form name="miformulario"
+                   id="miform"
+                   action="formularios.php"
+                   method="post"
+                   enctype="multipart/form-data"
+                   />
+    </body>
+        <h4>Create an account</h4>
+            <div>
+                <label for="nombre"></label>
+                       <input type="text" name="nombre" id="nombre" value="" placeholder= "DESTINO/GASTRONOMÍA/CULTURA/AVENTURA"/>
+                <input type="submit" name="button" id="button" value="Encuentra">
