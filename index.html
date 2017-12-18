@@ -5,24 +5,86 @@
         <title>BananaTube</title>
     </head>
      <body>
+         <header>
+             <div>
+                <a href=index.html><img src="imagenes/logo-banana.png" width="150" alt="BananaTube"></a>
+                <h4>ILUSIÓN POR VIAJAR</h4>
+             </div>
+             <div>
+                <a href="iniciarsesion.html">INICIAR SESIÓN</a>
+                <a href="registro.html">REGISTRARSE</a>
+             </div>
+         </header>
+         <section>
          <form name="miformulario"
                    id="miform"
                    action="formularios.php"
                    method="post"
-                   enctype="multipart/form-data"
                    />
-    </body>
-        <h4>Create an account</h4>
             <div>
                 <img src="ubicacion.png"/>
             </div>
-                <div>
-                        <input type="search" name="buscar" id="buscar" value="" required
-                        placeholder="Aquí va búsqueda"
-                        autocomplete="off"
-                        />
-                    </div>
-                    
+            <div>
+                <label for="buscador"/>
+                <input type="search" name="buscador" id="buscador" value="" placeholder= "DESTINO/GASTRONOMÍA/CULTURA/AVENTURA"/>
+            </div>   
             <div>
                 <input type="submit" name="button" id="button" value="Encuentra">
-            </div>           
+            </div>
+        </section>
+         <section>
+             <h3>Un mundo, siete mil millones de visiones, ¿cuál es la tuya?</h3>
+             <div>
+                <h4>Descubre lugares increíbles</h4>
+                <p>Descubre las experiencias de nuestra comindad global de viajeros</p>
+             </div>
+             <div>
+                <h4>Organiza tu viaje</h4>
+                <p>Básate en las experiencias de nuestros viajeros para crear el viaje perfecto</p>
+             </div>
+             <div>
+                <h4>Comparte tus vídeos</h4>
+                <p>Sube el vídeo de tu último viaje y ayuda al resto de viajeros a descubrir tu forma de ver el mundo</p>
+             </div>
+         </section>
+         <section>
+             <div>
+                <h4>Regístrate, empieza a contar tu historia...</h4>
+            </div>
+             <div>
+                 <img src="imagenes/mapamundi.png" width="500" alt="Mapa mundial"/>
+             </div>
+             <div>
+                <h4>...y pasa a formar parte de la comunidad bananer</h4>
+             </div>
+         </section>
+         <footer>
+             <div>
+                <li><a href="">Quiénes somos</a></li>
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Contacto</a></li>
+            </div>
+             <div>
+             <figure>
+                    <a href="#">
+                        <img src="imagenes/socialmedia/twitter.png" 
+                             alt="Twitter"/></a>
+                    <a href="#">
+                        <img src="imagenes/socialmedia/facebook.png"
+                             alt="Facebook"/></a>
+                    <a href="#">
+                        <img src="imagenes/socialmedia/google-plus.png"
+                             alt="Google+"/></a>
+                    <a href="#">
+                        <img src="imagenes/socialmedia/instagram.png"
+                             alt="Instagram"/></a>
+                    <a href="#">
+                        <img src="imagenes/socialmedia/youtube.png"
+                             alt="YouTube"/></a>
+                    <figcaption>&copy;BananaTube 2017</figcaption>
+                </figure>
+             </div>
+         </footer>
+    </body>
+</html>
+                    
