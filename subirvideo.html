@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <meta charset="utf-8"/>
         <title>Sube tu vídeo</title>
+        
     </head>
     <body>
         <header>
@@ -13,24 +15,28 @@
                 </a>
             </div>
             <div>
-                <a href="#"><img src="imagenes/fotoperfil.png" alt="Usuario" width="50"/></a>
-            </div>
-            <div>
+                <div>
+                    <a href="#"><img src="imagenes/fotoperfil.png" alt="Usuario" width="50"/></a>
+                </div>
+                <div>
                 <a href="#">Cerrar sesión</a>
+                </div>
             </div>
         </header>
         <hr>
         <section>
             <form name="subirvideo"
-                  id="subirvideo"
+                  id="formsubir"
                   action=""
-                  method="post">
+                  method="post"
+                  enctype="multipart/form-data">
                 <div>
                     <label for="archivo"></label>
                     <input type="file"
                            name="archivo"
                            id="archivo"
                            value=""
+                           multiple="multiple"
                            required/>
                 </div>
                 <div>
@@ -73,7 +79,7 @@
             <div>
                 <nav>
                     <ul>
-                        <li><a href="#">QUIÉNES SOMOS</a></li>
+                        <li><a href="quienessomos.html">QUIÉNES SOMOS</a></li>
                         <li><a href="#">PREGUNTAS FRECUENTES</a></li>
                         <li><a href="#">CONTACTO</a></li>
                     </ul>
