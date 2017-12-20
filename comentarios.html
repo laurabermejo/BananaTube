@@ -1,71 +1,74 @@
 <!DOCTYPE html>
-    <html lang="es">
-            <head>
-                <meta charset="utf-8">
-                    <title>Comentarios</title>
-            </head>
-
-            <body>
-              <header>
-            <div>
-                <a href="index.html">
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Comentarios</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html">
                     <img src="imagenes/logo-banana.png"
                          alt="BananaTube"
                          width="170"/>
-                </a>
+            </a>
+        </div>
+        <div>
+            <a href="#"><img src="imagenes/fotoperfil.png" alt="Usuario" width="50"/></a>
+        </div>
+        <div>
+            <a href="#">Cerrar sesión</a>
+        </div>
+    </header>
+    <hr>
+
+    <!-- aquí iría el vídeo-->
+
+    <!-- aquí iría la descripción, el usuario, las reproducciones...-->
+
+    <section id="comentarios">
+        <h2>Lo que dicen los bananers</h2>
+        <form id="formcomentarios" name="comentarios" action="" method="post">
+            <div>
+                <img src="monkey.png" />
+                <input type="text" name="comentarios" id="escribircoment" value="" placeholder="Escribe aquí tu comentario" />
             </div>
             <div>
-                <a href="#"><img src="imagenes/fotoperfil.png" alt="Usuario" width="50"/></a>
+                <input type="submit" id="submit" name="submit" value="Publicar" />
+                <img src="bananas.png" />
             </div>
-            <div>
-                <a href="#">Cerrar sesión</a>
-            </div>
-        </header>
-        <hr>
-                <section id="comentarios">
-         <form id="comentarios" name="comentarios" action="comentariospublicados.html" method="post">
-            <h2>Lo que dicen los bananers</h2>
-             <hr>
-                <div>
-                    <img src="monkey.png"/>
-                    <input type="text" name="comentarios" id="comentariospublicados" value="" placeholder="Escribe aquí tu comentario"/>
-                </div>
-                <div>
-                   <input type="submit" id="submit" name="submit" value="Publicar"/>
-                    <img src="bananas.png"/>
-                </div>
-            </form>
-        </section>
-                 <footer>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="quienessomos.html">QUIÉNES SOMOS</a></li>
-                        <li><a href="#">PREGUNTAS FRECUENTES</a></li>
-                        <li><a href="#">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <figure>
-                    <a href="#">
+        </form>
+    </section>
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="quienessomos.html">QUIÉNES SOMOS</a></li>
+                    <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <figure>
+                <a href="#">
                         <img src="imagenes/socialmedia/twitter.png"
                              alt="Twitter"/></a>
-                    <a href="#">
+                <a href="#">
                         <img src="imagenes/socialmedia/facebook.png"
                              alt="Facebook"/></a>
-                    <a href="#">
+                <a href="#">
                         <img src="imagenes/socialmedia/google-plus.png"
                              alt="Google+"/></a>
-                    <a href="#">
+                <a href="#">
                         <img src="imagenes/socialmedia/instagram.png"
                              alt="Instagram"/></a>
-                    <a href="#">
+                <a href="#">
                         <img src="imagenes/socialmedia/youtube.png"
                              alt="YouTube"/></a>
-                    <figcaption>&copy;BananaTube 2017</figcaption>
-                </figure>
-            </div>
-        </footer>
-    </body>
+                <figcaption>&copy;BananaTube 2017</figcaption>
+            </figure>
+        </div>
+    </footer>
+</body>
 </html>
