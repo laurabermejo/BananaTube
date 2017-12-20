@@ -1,8 +1,7 @@
 /*fuentes*/
-@font-face{
+@font-face {
     font-family: Raleway;
-    src: url(Raleway-Regular.ttf);
-    
+    src: url(Raleway-Bold.ttf);
 }
 
 /*formato general del footer*/
