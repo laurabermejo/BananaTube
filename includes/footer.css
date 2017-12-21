@@ -1,7 +1,13 @@
 /*fuentes*/
+<<<<<<< HEAD
 @font-face{
     font-family:"Raleway";
     src: url("../fonts/raleway2.woff2");
+=======
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Bold.ttf);
+>>>>>>> f225b9d655e994b9f71adb0c715d0694448fe364
 }
 
 /*formato general del footer*/
