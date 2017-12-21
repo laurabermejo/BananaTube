@@ -1,0 +1,15 @@
+#imgidsection1{
+    width:100%;
+}
+#section{
+    overflow: hidden;
+}
+.floatleft{
+    float: left;
+}
+.positionx{
+    position: relative;
+}
+.positiony{
+    position:absolute;
+}
