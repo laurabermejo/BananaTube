@@ -1,48 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8"/>
-           <link rel=stylesheet href="insection1.css" media="all"/>
-        <title>BananaTube</title>
-    </head>
-     <body>
-         <section id="section1">
-             <div class="floatleft positionx">
-             <img id="imgidsection1" src="imagenes/imginsection1.jpg"/>
-                 </div>
-             <div class="floatleft positiony">
-         <form name="miformulario"
-                   id="formbusquedaindex"
-                   action=""
-                   method="post">
-                <div>
-                    <img src="ubicacion.png"/>
-                </div>
-                <div>
-                    <label for="buscador"/>
-                    <input type="search" name="buscador" id="buscador" value="" placeholder= "DESTINO/GASTRONOMÍA/CULTURA/AVENTURA"/>
-                    <input type="submit" name="button" id="button" value="Encuentra"/>
-                </div>
-        </form>
-             </div>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel=stylesheet href="insection1.css" media="all" />
+    <title>BananaTube</title>
+</head>
+
+<body>
+    <div id="imgbgsection1">
+        <section id="section1">
+            <div id="formu">
+                <form name="miformulario" id="formbusquedaindex" action="" method="post">
+                    <p>
+                        <img src="ubicacion.png" />
+                        <label for="buscador" id="label-buscador">Buscador</label>
+                        <input type="search" name="buscador" id="buscador" value="" placeholder="DESTINO/GASTRONOMÍA/CULTURA/AVENTURA"  class="redondito"/>
+                        <input type="submit" name="button" id="submit-buscador" class="redondito" value="Encuentra experiencias" />
+                    </p>
+                </form>
+            </div>
         </section>
-         <section>
-             <h3>Un mundo, siete mil millones de visiones, ¿cuál es la tuya?</h3>
-             <div>
+        <section id="insectiona">
+            <h3>Un mundo, siete mil millones de visiones, ¿cuál es la tuya?</h3>
+            <div id="bloquesin" class="floatizq">
                 <h4>Descubre lugares increíbles</h4>
                 <p>Descubre las experiencias de nuestra comindad global de viajeros</p>
-             </div>
-             <div>
+            </div>
+            <div id="bloquesin"class="floatder">
                 <h4>Organiza tu viaje</h4>
                 <p>Básate en las experiencias de nuestros viajeros para crear el viaje perfecto</p>
-             </div>
-             <div>
+            </div>
+            <div id="bloquesin" class="floatder">
                 <h4>Comparte tus vídeos</h4>
                 <p>Sube el vídeo de tu último viaje y ayuda al resto de viajeros a descubrir tu forma de ver el mundo</p>
-             </div>
-         </section>
-         
-        
-    </body>
+            </div>
+        </section>
+    </div>
+</body>
+
 </html>
-                    
