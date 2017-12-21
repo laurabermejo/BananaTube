@@ -1,0 +1,30 @@
+#fondo {
+    background-image: url(../imagenes/img1.png);
+    height: 400px;
+    overflow: hidden;
+    color: black;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545;
+    font-weight: bold;
+    
+}
+
+#izquierdo {
+    width: 25%;
+}
+#mapa {
+    width: 45%;
+    padding-left: 0px;
+}
+#derecho {
+    width: 30%;
+}
+.floatizq {
+    float:left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.floatder{
+    float: right;
+}
