@@ -7,6 +7,7 @@
     </head>
         <body>
             <?php include "includes/inheader.html";?>
+            <?php include "insection2.html";?>
             <?php include "includes/footer.html";?>
         </body>
 </html>

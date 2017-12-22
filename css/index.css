@@ -9,6 +9,7 @@ body{
     font-family: Raleway,arial,sans-serif;
     font-size: 14px;
 }
+/*header*/
 header, footer {
     background-color: #F2F2F2;
     color: #454545;
@@ -66,6 +67,9 @@ h4{
     color: #3EAC7E;
 }
 /* footer*/
+footer{
+    width: 100%;
+}
 footer li{
     list-style-type:none;
 }
@@ -80,4 +84,29 @@ footer a:hover{
 footer figcaption{
     color:#1F5941;
     text-align: center;
+}
+/*insection2*/
+
+#fondo .floatizq{
+    float:left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#izquierdo {
+    width: 25%;
+}
+#mapa {
+    width: 45%;
+    padding-left: 0px;
+}
+#derecho {
+    width: 30%;
+}
+#fondo {
+    background-image: url(../imagenes/img1.png);
+    height: 400px;
+    overflow: hidden;
+    color: #454545;
+    font-weight: bold;
+    
 }
