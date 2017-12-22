@@ -157,7 +157,7 @@ h4{
 
 
 #insectiona{
-        background-color: rgba(153, 153, 153,0.7);
+        background-color: rgba(153, 153, 153,0.8);
         margin-bottom: 100px;
         width: 100%;
         height: 300px;
@@ -168,16 +168,18 @@ h4{
     padding: 27px;
      margin-left: 5%;
     margin-right: 5%;
+    
 }
 #bloquesin h4{
-    color:#1F5941;
+    color:#454545;
     text-align: center;
     padding: 18px;
-    margin-left: 40px;
+    margin-left: 0px;
+    font-variant: small-caps;
     }
 #bloquesin p{
-    color:#1F5941;
-    text-align: center
+    color:#454545;
+    text-align: center;
 }
 
 .treintraytres{
