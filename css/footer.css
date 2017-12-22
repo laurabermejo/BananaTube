@@ -10,6 +10,7 @@ footer{
     background-color:#F2F2F2;
     overflow:hidden;
     font-family: "Raleway", arial, sans-serif;
+    position:absolute;
 }
 
 .float-izda{
