@@ -2,6 +2,10 @@
     font-family: Raleway;
     src: url(raleway2.woff2);
 }
+@font-face{
+    font-family:
+        src: url(../fonts/ReenieBeanie.woff2);
+}
 
 body{
     margin: 0;
@@ -66,26 +70,125 @@ h4{
 #login a:hover{
     color: #3EAC7E;
 }
-/* footer*/
-footer{
-    width: 100%;
-    position: absolute;
-}
-footer li{
-    list-style-type:none;
-}
 
-footer a{
+/*insection1*/
+
+#imgbgsection1{
+    width:100%;
+    background-image: url(../imagenes/imginsection1.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    overflow: hidden;
+    font-family: "Raleway";
+}
+#formbusquedaindex{
+    overflow: hidden;
+    padding: 100px;
+}
+#formbusquedaindex input{
+    margin: 0px;
+}
+#formbusquedaindex img{
+    position: relative;
+    left:30px;
+    top:8px;
+}
+#insectiona h3{
     color: #1F5941;
-    text-decoration: none;
-}
-footer a:hover{
-    color:#3EAC7E;
-}
-footer figcaption{
-    color:#1F5941;
     text-align: center;
 }
+#formu{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#formu p{
+    background-color:rgba(153, 153, 153,0.3);
+    padding: 10px;
+}
+#label-buscador{
+    display: none;
+}
+#buscador{
+    width: 52%;
+    height: 27px;
+}
+#buscador::placeholder{
+    font-size: 0.8em;
+    position: relative;
+    left: 25px;
+}
+#submit-buscador{
+	font-family: "Raleway";
+	font-size: 13px;
+    width: 40%;
+	color: #050505;
+	padding: 6px 10px;
+	background: -moz-linear-gradient(
+		top,
+		#3eac7e 0%,
+		#3eac7e);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#3eac7e),
+		to(#3eac7e));
+}
+.redondito{
+    -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 0px solid #949494;
+	-moz-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	box-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		inset 0px 0px 0px rgba(255,255,255,0);
+	text-shadow:
+		0px 0px 0px rgba(000,000,000,0),
+		0px 0px 0px rgba(255,255,255,0);
+}
+
+
+#insectiona{
+        background-color: rgba(153, 153, 153,0.7);
+        margin-bottom: 100px;
+        width: 100%;
+        height: 300px;
+}
+#insectiona h3{
+    color: #1F5941;
+    text-align: center;
+    padding: 27px;
+     margin-left: 5%;
+    margin-right: 5%;
+}
+#bloquesin h4{
+    color:#1F5941;
+    text-align: center;
+    padding: 18px;
+    margin-left: 40px;
+    }
+#bloquesin p{
+    color:#1F5941;
+    text-align: center
+}
+
+.treintraytres{
+    width: 23%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bloquesin{
+    overflow: hidden;
+}
+
 /*insection2*/
 
 
@@ -111,5 +214,27 @@ footer figcaption{
     position:relative;
     padding-bottom: 30px;
     text-transform: uppercase;
+    background-color: white;
+    margin-top: 700px;
     
+}
+/* footer*/
+footer{
+    width: 100%;
+    position: absolute;
+}
+footer li{
+    list-style-type:none;
+}
+
+footer a{
+    color: #1F5941;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#3EAC7E;
+}
+footer figcaption{
+    color:#1F5941;
+    text-align: center;
 }
