@@ -141,6 +141,9 @@ h4{
 		from(#3eac7e),
 		to(#3eac7e));
 }
+#submit-buscador:hover{
+    color:#F2F2F2;
+}
 .redondito{
     -moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
