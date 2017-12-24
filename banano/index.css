@@ -1,0 +1,223 @@
+#logo {
+   width: 150px;
+    margin-left: 42%;
+    margin-top: 1%;
+}
+#banana {
+    display: block;
+    width: 50px;
+    margin-left: 38%;
+    margin-top: -3.5%;
+}
+#ilusion {
+    display: block;
+    margin-left: 42%;
+    margin-top: -1.5%;
+    color:rgb(27,90,63);
+}
+#usuario {
+    display: block;
+    width: 30px;
+    margin-left: 75%;
+    margin-top: -5%;
+}
+#iniciarsesion {
+    display: block;
+    margin-left: 79%;
+    margin-top: -2%;
+}
+#registrase {
+    display: block;
+    margin-left: 89%;
+    margin-top: -1.65%;
+}
+#barrainicio {
+    background: rgba(254, 247, 159, 0.4);
+    padding-bottom: 2.5%;
+    position: sticky;
+    top: 0;
+}
+#mono{
+    margin-left: 32.5%;
+    margin-top: -5.5%;
+}
+#ini{
+    text-decoration: none;
+    color: rgb(27,90,63);
+    font-weight: bold;
+    background: rgba(254, 247, 159, 0.4);
+    border: 0px;
+}
+#ini:hover{
+    color: black;
+}
+#reg {
+    text-decoration: none;
+    color: rgb(27,90,63);
+    font-weight: bold;
+    background: rgba(254, 247, 159, 0.4);
+    border: 0px;
+}
+#reg:hover{
+    color: black;
+}
+#barrainicio {
+    display: block;
+}
+#buscador {
+    width: 50%; 
+    margin-top: 10%;
+    margin-left: 13%;
+}
+#buscar {
+    margin-top: 10%;
+}
+#button {
+    width: 30%;
+    background-color: rgb(27,90,63);
+    color: white;
+    font-size: 12px;
+    padding-bottom: 0.2%;
+    padding-top: 0.3%;
+    border: 0px;
+}
+#button:hover{
+    color: black;
+}
+#titul {
+    margin-top: 12%;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(27,90,63);
+    font-weight: bold;
+    padding-top: 1%;
+}
+.cualestuya {
+    font-family: monospace;    
+}
+#tercero{
+    display: block;
+    margin-left: 65%;
+    margin-top: -7%;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%
+}
+#segundo {
+    display: block;
+    margin-top: -8.2%;
+    text-align: center;
+}
+#primero{
+    display: block;
+    margin-left: 2%;
+    margin-right: 75%;
+    margin-top: 3%;
+    text-align: center;
+}
+h2{
+    color:rgb(27,90,63);
+    font-weight: bold;
+}
+#pprimero, #psegundo, #ptercero{
+    color:black;
+    font-weight: bold;
+}
+#medio{
+    background-color: rgba(250,244,227,0.5);
+    padding-bottom: 2%;
+    padding-top: -1%;
+}
+#fondo{
+    background-image: url(imagenes/fondoindex1.png);
+    padding-top: 3%;
+}
+#a{
+    margin-top:20%;
+    font-size:1px;
+}
+#mapa{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -8%;
+}
+#p1{
+    margin-left: 3%;
+    margin-top: 9%;
+    margin-right: 70%;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    padding-top: 5%;
+}
+#t1{
+    font-size: 18px;
+}
+#p2{
+    margin-left: 70%;
+    margin-top: -10%;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
+#t2{
+    font-size: 18px;
+}
+#historia{
+    font-family: monospace;
+}
+#comunidad{
+    font-family: monospace;
+}
+#bajo{
+    background-image: url(imagenes/img1.png);
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+#copy{
+    margin-left: 81%;
+    margin-top: 0.5%;
+}
+#enlacesder{
+    display: block;
+    margin-left: 80%;
+    margin-top: -4.5%;
+}
+#contacto{
+    display: block;
+    margin-top: 0.5%;
+    text-decoration: none;
+}
+#preguntas{
+    display: block;
+    margin-top: 0.5%;
+    text-decoration: none;
+}
+#quienessomos{
+    display: block;
+    margin-top: 10%;
+    text-decoration: none;
+    padding-top: 10%;
+}
+#enlacesizq{
+    text-decoration: none;
+    color: #1b5a3f;
+    display: block;
+    padding-left: 2%;
+    padding-right: 80%;
+    text-align: left;
+    margin-top: 6%;
+    font-weight: bold;
+}
+#enlacesizq a{
+    color: #1b5a3f;
+}
+#enlacesizq a:hover{
+    color: black;
+}
+#pie{
+    background-color: #fef79f;
+    padding-bottom: 0.4%;
+    margin-bottom: 5%;
+}
