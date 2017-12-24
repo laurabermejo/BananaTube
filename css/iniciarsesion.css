@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/raleway2.woff2);
+}
+@font-face{
+    font-family: ReenieBeanie;
+        src: url(../fonts/ReenieBeanie.woff2);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", arial, sans-serif;
+    font-size: 14px;
+    color:#454545;
+    overflow: hidden;
+}
+#izquierda{
+    width:56%;
+    height: 100%;
+    text-align: center;
+    background-image: url(../imagenes/inicarsesion.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#derecha{
+    width: 44%;
+}
+.floatder{
+    float: right;
+}
+.floatizq{
+    float: left;
+}
+#izquierda h1{
+    font-family: "ReenieBeanie";
+    font-size: 4em;
+    margin-bottom: 15px;
+    margin-left: -110px;
+}
+#izquierda h2{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: -110px;
+    font-variant: small-caps;
+    font-weight: 80%;
+    letter-spacing: 4px;
+}
+#derecha h3{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-size: 2em;
+}
+h3 img{
+    width: 230px;
+    margin-bottom:-22px;
+}
+.formulario{
+    margin-left: 130px;
+    text-align: left;
+}
+.campos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 300px;
+}
+#formsesion{
+       margin-top: 50px;
+}
+.abajo{
+    margin-top: 30px;
+}
+.centrado{
+    text-align: center;
+    margin-right: 100px;
+    
+}
+.centrado a{
+    text-decoration: none;
+    color: #454545; 
+}
+.centrado a:hover{
+    color: #1f5941;
+    font-weight: 600;
+}
+.centrado input:hover{
+    color:#1f5941;
+}
+
+#volver{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+#volver a{
+         color:#454545;
+}
+#volver a:hover{
+    color: #1f5941;
+    font-weight: 600;
+}
