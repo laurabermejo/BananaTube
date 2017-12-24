@@ -3,7 +3,7 @@
     src: url(raleway2.woff2);
 }
 @font-face{
-    font-family:
+    font-family: ReenieBeanie
         src: url(../fonts/ReenieBeanie.woff2);
 }
 
@@ -87,9 +87,7 @@ h4{
     overflow: hidden;
     font-family: "Raleway";
 }
-input #buscador{
-    background-image: url(../imagenes/ubicacion.png) no-repeat 0 5px;
-}
+
 #formbusquedaindex{
     overflow: hidden;
     padding: 100px;
@@ -181,6 +179,7 @@ input #buscador{
     margin-right: 5%;
     
 }
+
 #bloquesin h4{
     color:#454545;
     text-align: center;
