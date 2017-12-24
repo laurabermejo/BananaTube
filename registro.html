@@ -4,37 +4,63 @@
 <head>
     <meta charset="utf-8" />
     <title>Regístrate</title>
+    <link rel="stylesheet" href="css/registro.css" media="all"/>
 </head>
 <body>
-         <a href="index.html"><img src="imagenes/cancel.png"></a>
-     <form name="miformulario"
-                   id="miform"
-                   action=""
-                   method="post"
-                   />
-   <section>
-        <h2>EMPIEZA EL VIAJE EN BANANATUBE</h2>
-        <H3>DESCUBRE LUGARES APASIONANTES Y COMPARTE LOS TUYOS</H3>
+   <section id="izquierda" class="floatizq">
+        <h1>EMPIEZA EL VIAJE EN <img src="imagenes/logo-banana-gris.png"/></h1>
+        <h4>DESCUBRE LUGARES APASIONANTES <br>
+            Y COMPARTE LOS TUYOS.</h4>
     </section>
-    <section>
-        <h2>REGISTRARSE</h2>
-        <form name="miformulario" id="formregistro" action="" method="post">
-            <div>
-                <label for="nombre">Nombre de usuario</label><input type="text" name="nombre" id="nombre" value="" required/>
+    <section id="derecha" class="floatizq">
+        <h2>REGISTRARTE</h2>
+        <form name="miformulario" 
+              id="formregistro" 
+              action="" 
+              method="post">
+            <div class="formulario">
+                <label for="nombre">Nombre de usuario</label>
+                <br>
+                <input type="text" 
+                       name="nombre" 
+                       id="nombre" 
+                       value="" 
+                       required
+                       class="campos"/>
             </div>
-            <div>
+            <div class="formulario">
                 <label for="email">Correo electrónico</label>
-                <input type="email" name="correo" id="email" value="" required minlength="7" maxlength="50">
+                <br>
+                <input type="email" 
+                       name="correo" 
+                       id="email" 
+                       value="" 
+                       required 
+                       minlength="7" 
+                       maxlength="50"
+                       class="campos">
             </div>
-            <div>
+            <div class="formulario">
                 <label for="password">Contraseña</label>
-                <input type="password" name="pass" id="password" value="" required/>
+                <br>
+                <input type="password" 
+                       name="pass" 
+                       id="password" 
+                       value="" 
+                       required
+                       class="campos"/>
             </div>
-            <div>
+            <div class="formulario">
                 <label for="password">Repetir contraseña</label>
-                <input type="password" name="pass" id="password" value="" required/>
+                <br>
+                <input type="password" 
+                       name="pass" 
+                       id="password" 
+                       value="" 
+                       required
+                       class="campos"/>
             </div>
-            <div>
+            <div id="check">
                 <input type="checkbox" id="condiciones" name="condiciones" required>
                 <label for="condiciones">ACEPTO LA  <a href ="condicionesdelservicio.html">POLÍTICA DE PRIVACIDAD</a> Y <a href= "condicionesdeuso.html">TÉRMINOS DE USO</a> </label>
             </div>
