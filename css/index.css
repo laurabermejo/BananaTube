@@ -87,6 +87,9 @@ h4{
     overflow: hidden;
     font-family: "Raleway";
 }
+input #buscador{
+    background-image: url(../imagenes/ubicacion.png) no-repeat 0 5px;
+}
 #formbusquedaindex{
     overflow: hidden;
     padding: 100px;

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Regístrate</title>
+    <title>Registrarse</title>
     <link rel="stylesheet" href="css/registro.css" media="all"/>
 </head>
 <body>
@@ -16,8 +16,9 @@
         <h2>REGISTRARTE</h2>
         <form name="miformulario" 
               id="formregistro" 
-              action="" 
-              method="post">
+              action="revisacorreoregistro.html" 
+              method="post"
+              autocomplete="off">
             <div class="formulario">
                 <label for="nombre">Nombre de usuario</label>
                 <br>
@@ -51,25 +52,31 @@
                        class="campos"/>
             </div>
             <div class="formulario">
-                <label for="password">Repetir contraseña</label>
+                <label for="repass">Repetir contraseña</label>
                 <br>
                 <input type="password" 
-                       name="pass" 
-                       id="password" 
+                       name="repass" 
+                       id="repass" 
                        value="" 
                        required
                        class="campos"/>
             </div>
             <div id="check">
-                <input type="checkbox" id="condiciones" name="condiciones" required>
-                <label for="condiciones">ACEPTO LA  <a href ="condicionesdelservicio.html">POLÍTICA DE PRIVACIDAD</a> Y <a href= "condicionesdeuso.html">TÉRMINOS DE USO</a> </label>
+                <input type="checkbox" 
+                       id="condiciones" 
+                       name="condiciones" 
+                       required>
+                <label for="condiciones">ACEPTO LA  <a href ="condicionesdelservicio.html">POLÍTICA DE PRIVACIDAD</a> Y <a href= "condicionesdeuso.html">TÉRMINOS DE USO</a></label>
             </div>
-            <div>
-                <input type="submit" name="boton" id="boton" value="¡REGISTRADME!" />
+            <div id="boton">
+                <input type="submit" 
+                       name="boton" 
+                       id="boton" 
+                       value="¡REGISTRADME!"/>
             </div>
         </form>
-        <div>
-            <a href="index.html">Volver a inicio</a>
+        <div id="volver">
+            <a href="index.php">Volver a inicio</a>
         </div>
     </section>
     </body>
