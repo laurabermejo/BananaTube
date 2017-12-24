@@ -14,10 +14,13 @@ body{
     font-size: 14px;
 }
 /*header*/
-header, footer {
+#header, footer {
     background-color: #F2F2F2;
     color: #454545;
     overflow: hidden;
+}
+#header {
+    position: sticky;
 }
 
 #eslogan {
@@ -90,6 +93,7 @@ h4{
 }
 #formbusquedaindex input{
     margin: 0px;
+    padding-left: 30px;
 }
 #formbusquedaindex img{
     position: relative;
@@ -106,7 +110,6 @@ h4{
     
 }
 #formu p{
-    background-color:rgba(153, 153, 153,0.3);
     padding: 10px;
 }
 #label-buscador{
@@ -114,7 +117,7 @@ h4{
 }
 #buscador{
     width: 52%;
-    height: 27px;
+    height: 40px;
 }
 #buscador::placeholder{
     font-size: 0.8em;
@@ -125,7 +128,9 @@ h4{
 	font-family: "Raleway";
 	font-size: 13px;
     width: 40%;
+    height: 40px;
 	color: #050505;
+    font-weight: 550;
 	padding: 6px 10px;
 	background: -moz-linear-gradient(
 		top,

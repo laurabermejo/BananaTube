@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/index.css" media="all"/>
     </head>
         <body>
-            <div><?php include "includes/inheader.html";?></div>
+            <div id="header"><?php include "includes/inheader.html";?></div>
             <div><?php include "insection1.html";?></div>
             <div><?php include "insection2.html";?></div>
             <div><?php include "includes/footer.html";?></div>
