@@ -3,7 +3,7 @@
     src: url(raleway2.woff2);
 }
 @font-face{
-    font-family: ReenieBeanie
+    font-family: ReenieBeanie;
         src: url(../fonts/ReenieBeanie.woff2);
 }
 
@@ -44,10 +44,7 @@ header {
     border-right: 1px solid #1f5941;
     text-decoration: none; 
 }
-h4{
-    margin:0;
-    padding-bottom: 10px;
-}
+
 .setenta{
     width: 70%;
 }
@@ -80,7 +77,7 @@ h4{
     margin-right: 30px;
 }
 
-#contenido{
+.contenido{
     width: 70%;
     margin-left: 14%;
     margin-bottom: 20px;
@@ -91,26 +88,38 @@ h4{
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 10px;
+    overflow: hidden;
 }
-#contenido p{
+
+p{
     text-indent: 10px;
+    font-family: monospace;
 }
 a {
     color: #1F5941;
 }
-#contenido2{
-    width: 70%;
-    margin-left: 14%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: justify;
-    background-color: #F2F2F2;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-top: 10px;
+#cajas{
+    overflow: hidden;
+    padding-left: 50px;
 }
+.norma{
+    width:40%;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.norma h4{
+    text-align: center;
+    color:#1f5941;
+    font-family: monospace;
+}
+.marginbot{
+    margin-bottom: 50px;
+}
+#caja1{
+    overflow: hidden;
+    clear: both;
 
+}
 /*formato general del footer*/
 
 
