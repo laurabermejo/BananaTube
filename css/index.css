@@ -3,7 +3,7 @@
     src: url(raleway2.woff2);
 }
 @font-face{
-    font-family: ReenieBeanie
+    font-family: ReenieBeanie;
         src: url(../fonts/ReenieBeanie.woff2);
 }
 
@@ -101,10 +101,7 @@ h4{
     left:30px;
     top:8px;
 }
-#insectiona h3{
-    color: #1F5941;
-    text-align: center;
-}
+
 #formu{
     width: 90%;
     margin: 0 auto;
@@ -173,10 +170,13 @@ h4{
 }
 #insectiona h3{
     color: #1F5941;
+    font-family: ReenieBeanie;
+    font-size: 2.7em;
     text-align: center;
     padding: 27px;
      margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 0;
     
 }
 
@@ -186,10 +186,13 @@ h4{
     padding: 18px;
     margin-left: 0px;
     font-variant: small-caps;
+    font-size: 1.2em;
+    letter-spacing: 2px;
     }
 #bloquesin p{
     color:#454545;
     text-align: center;
+    line-height: 20px;
 }
 
 .treintraytres{
@@ -216,9 +219,11 @@ h4{
 #derecho {
     width: 30%;
     text-align: center;
-    margin-top: 380px;
+    margin-top: 350px;
 }
 #fondo {
+    background-image: url(../imagenes/backsec2.png);
+    background-repeat: no-repeat;
     height: 400px;
     overflow: hidden;
     color: #454545;
@@ -227,7 +232,7 @@ h4{
     padding-bottom: 30px;
     text-transform: uppercase;
     background-color: white;
-    margin-top: 700px;
+    margin-top: 755px;
     
 }
 /* footer*/

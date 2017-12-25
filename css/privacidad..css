@@ -19,12 +19,11 @@ header, footer {
     overflow: hidden;
     width: 100%;
 }
-header {
-    position: sticky;
-}
+
 /*header*/
 #eslogan {
-    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 #bananalogo{
@@ -35,6 +34,7 @@ header {
 #login p{
     padding-top: 20px;
     padding-right: 50px;
+    font-family: Raleway;
     
     
 }
@@ -91,7 +91,7 @@ header {
     overflow: hidden;
 }
 
-p{
+.contenido p{
     text-indent: 10px;
     font-family: monospace;
 }

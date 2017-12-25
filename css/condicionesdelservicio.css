@@ -24,6 +24,7 @@ header {
 /*header*/
 #eslogan {
     margin: 0px;
+    font-family: Raleway;
 }
 
 #bananalogo{
@@ -46,6 +47,8 @@ header {
 h4{
     margin:0;
     padding-bottom: 10px;
+    font-family: monospace;
+    color: #1f5941;
 }
 .setenta{
     width: 70%;
@@ -93,6 +96,7 @@ h4{
 }
 #contenido p{
     text-indent: 10px;
+    font-family: monospace;
 }
 
 /*formato general del footer*/
