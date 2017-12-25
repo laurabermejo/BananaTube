@@ -3,32 +3,35 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>BananaTube</title>
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" media="all" href="css/recuperarcontrasena.css"/>
 </head>
 
 <body>
-
-    <section>
-        <h2>hola bananer</h2>
-        <h2>COMPARTE TU VISIÓN, AÑADE TU VIDEOVIAJE</h2>
+    <section id="izquierda" class="floatizq">
+        <h1>Hola bananer</h1>
+        <h2>Comparte tu visión,</h2>
+        <h2>añade tu videoviaje</h2>
     </section>
-    <section>
-        <h2>RECUPERAR CONTRASEÑA</h2>
-        <h3>INTRODUCE TU DIRECCIÓN DE CORREO ELECTRÓNICO Y TE ENVIAREMOS UN ENLACE PARA RECUPERAR TU CONTRASEÑA</h3>
-        <div>
-            <form name="miformulario" id="recuperar" action="" method="post">
+    <section id="derecha" class="floatder">
+        <h3>RECUPERAR CONTRASEÑA</h3>
+        <h4>INTRODUCE TU DIRECCIÓN DE CORREO ELECTRÓNICO Y TE ENVIAREMOS UN ENLACE PARA RECUPERAR TU CONTRASEÑA.</h4>
+        <div id="formulario">
+            <form name="miformulario" id="recuperar" action="revisarcorreocontrasena.html" method="post">
                 <div>
                     <label for="email">Correo electrónico</label>
                     <br>
-                    <input type="email" name="email" id="email" value="" required/>
+                    <input type="email" name="email" id="email" value="" required class="campos"/>
                 </div>
                 <br>
-                <div>
+                <div class="centrado">
                     <input type="submit" name="submit" id="submit" value="Enviar" />
                 </div>
             </form>
         </div>
-        <a href="index.html">Volver a inicio</a>
+        <div id="volver">
+        <a href="index.php">Volver a inicio</a>
+        </div>
     </section>
 </body>
 
