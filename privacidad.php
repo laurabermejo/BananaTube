@@ -19,7 +19,7 @@
         <h2> Políticas y seguridad</h2>
 
         <p>
-            Al utilizar BananaTube, te unes a una comunidad compuesta por personas de todo el mundo. Las funciones nuevas e interesantes de la comunidad de YouTube implican un cierto nivel de confianza. Millones de usuarios respetan esa confianza, y estamos seguros de que tú también estarás a la altura de las expectativas. Sigue las directrices que encontrarás más adelante para conseguir que YouTube siga siendo un lugar en el que todo el mundo pueda disfrutar y pasar un buen rato. 
+            Al utilizar BananaTube, te unes a una comunidad compuesta por personas de todo el mundo. Las funciones nuevas e interesantes de la comunidad de BananaTube implican un cierto nivel de confianza. Millones de usuarios respetan esa confianza, y estamos seguros de que tú también estarás a la altura de las expectativas. Sigue las directrices que encontrarás más adelante para conseguir que BananaTube siga siendo un lugar en el que todo el mundo pueda disfrutar y pasar un buen rato. 
         </p>
         <p>
             Para gustos están los colores, y BananaTube no es ninguna excepción. Si piensas que un vídeo es inapropiado, márcalo para que el personal de BananaTube lo revise. Nuestros equipos trabajan 24 horas al día y los 7 días de la semana para estudiar detenidamente el contenido que marcan los usuarios y, de este modo, determinar si se ha cometido o no una infracción de las normas de la comunidad.
@@ -59,18 +59,18 @@
                 </div>
                 <div class="norma floatizq">
                     <h4>Acoso y ciberacoso</h4>
-                    <p>Publicar vídeos y comentarios ofensivos en YouTube no es apropiado. En aquellos casos en los que el acoso sobrepase los límites y se convierta en un ataque malintencionado, puedes avisarnos para que retiremos el contenido. En ocasiones, los usuarios pueden resultar algo molestos o comportarse de forma inadecuada; en tal caso, te recomendamos que no les prestes atención.</p>
+                    <p>Publicar vídeos y comentarios ofensivos en BananaTube no es apropiado. En aquellos casos en los que el acoso sobrepase los límites y se convierta en un ataque malintencionado, puedes avisarnos para que retiremos el contenido. En ocasiones, los usuarios pueden resultar algo molestos o comportarse de forma inadecuada; en tal caso, te recomendamos que no les prestes atención.</p>
                 </div>
             </div>
                 <br>
             <div>
                 <div class="norma floatizq">
                     <h4>Amenazas</h4>
-                    <p>Somos muy estrictos en lo que respecta a las amenazas, el comportamiento agresivo, el hostigamiento, el acoso, la invasión de la privacidad, la revelación de información personal de terceros, la incitación a los actos violentos y la infracción de los condiciones de uso. Si una persona incurre en alguno de los comportamientos anteriores, es posible que la expulsemos de YouTube de forma permanente. </p>
+                    <p>Somos muy estrictos en lo que respecta a las amenazas, el comportamiento agresivo, el hostigamiento, el acoso, la invasión de la privacidad, la revelación de información personal de terceros, la incitación a los actos violentos y la infracción de los condiciones de uso. Si una persona incurre en alguno de los comportamientos anteriores, es posible que la expulsemos de BananaTube de forma permanente. </p>
                 </div>
                 <div class="norma floatizq">
                     <h4>Derechos de autor</h4>
-                    <p>Respeta los derechos de autor. Solo debes subir vídeos si los has creado tú o si dispones de la autorización necesaria para usarlos. Esto implica que no debes subir vídeos que no hayas creado ni utilizar contenido cuyos derechos pertenezcan a otra persona, como pistas de música y fragmentos de programas protegidos por derechos de autor. Tampoco puedes utilizar vídeos creados por otros usuarios sin la autorización necesaria. Visita el Centro de Derechos de Autor de YouTube para obtener más información.</p>
+                    <p>Respeta los derechos de autor. Solo debes subir vídeos si los has creado tú o si dispones de la autorización necesaria para usarlos. Esto implica que no debes subir vídeos que no hayas creado ni utilizar contenido cuyos derechos pertenezcan a otra persona, como pistas de música y fragmentos de programas protegidos por derechos de autor. Tampoco puedes utilizar vídeos creados por otros usuarios sin la autorización necesaria. Visita el Centro de Derechos de Autor de BananaTube para obtener más información.</p>
                 </div>
             </div>
                 <br>
