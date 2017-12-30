@@ -162,7 +162,7 @@
 
             <p>14.2 Ud. acepta que BananaTube podrá enviarle notificaciones, incluyendo las relativas a los cambios de los Términos y Condiciones, mediante e-mail, correo ordinario o publicando dichas modificaciones en el Servicio.</p>
 
-            <p>14.3 Todas las notificaciones que se refieran a su derecho de acceso, modificación, rectificación y cancelación de sus datos personales deberán ser enviados por correo certificado a BananaTube LLC., 901 Cherry Avenue, San Bruno, CA 94066, Estados Unidos o a la siguiente dirección de correo electrónico: support@BananaTube.com.</p>
+            <p>14.3 Todas las notificaciones que se refieran a su derecho de acceso, modificación, rectificación y cancelación de sus datos personales deberán ser enviados por correo certificado a Monkey Bussines o a la siguiente dirección de correo electrónico: bananatube.mb@gmail.com.</p>
 
             <p>14.4 Ud. acepta que en el supuesto de que BananaTube no ejercite cualquier derecho o acción legal contemplado en los Términos y Condiciones (o que le corresponda en virtud de la legislación aplicable), ello no constituirá una renuncia formal a los derechos de BananaTube, permaneciendo dichos derechos y acciones legales plenamente vigentes para BananaTube.</p>
 
