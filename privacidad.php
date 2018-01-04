@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Política de privacidad</title>
-    <link rel="stylesheet" href="css/privacidad..css" media="all" />
+    <link rel="stylesheet" href="css/privacidad.css" media="all" />
 </head>
 
 <body>
