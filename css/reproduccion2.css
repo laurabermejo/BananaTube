@@ -1,11 +1,13 @@
 /* Fuentes */
 @font-face{
     font-family:"Raleway";
-    src:"../fonts/raleway.woff2";
+    src: url("../fonts/raleway2.woff2") format("woff"),
+         url("../fonts/raleway2.ttf") format("truetype");
 }
 @font-face{
     font-family:"Reenie Beanie";
-    src:"../fonts/ReenieBeanie.woff2";
+    src: url("../fonts/ReenieBeanie.woff2") format("woff"),
+         url("../fonts/ReenieBeanie.ttf") format("truetype");
 }
 
 body{
@@ -17,23 +19,70 @@ body{
     width:100%;
     overflow:hidden;
 }
+
 .video-centro{
     text-align:center;
 }
+
 #infovideo{
     overflow:hidden;
-    font-family: "Raleway", sans-serif;
 }
+
 .floatizq{
     float:left;
 }
+
 .floatder{
     float:right;
 }
-#infovideo strong{
-    font-family:"Reenie Beanie", cursive;
+
+#texto-video header, #texto-video p, #repro-video{
+    font-family:"Raleway", sans-serif;
+}
+#texto-video header, #repro-video{
+    font-size: 17pt;
 }
 
+#repro-video{
+ color:#1F5941;   
+}
+
+.floatizq strong{
+    font-family:"Reenie Beanie", cursive;
+    font-size: 16pt;
+}
+
+#sharebut, #megustabut{
+    color:#1F5941;
+}
+
+#sharebut:hover{
+    color:#3EAC7E;
+}
+
+#megustabut:hover{
+    color:#3EAC7E;
+}
+
+#repro-compartir{
+    overflow:hidden;
+}
+
+#hashtag a{
+    font-family:"Raleway", sans-serif;
+    color: #1F5941;
+    text-decoration-line: none;
+    text-transform:uppercase;
+}
+#hashtag a:hover{
+    color:#3EAC7E;
+    text-decoration-line:none;
+}
+#comentarios header{
+    font-family:"Reenie Beanie", cursive;
+    font-size:20pt;
+    color:#1F5941;
+}
 /*Estilo botones de la web, cambiar configuración para adaptarlo a la pantalla de reproducción*/
 
 #submit-buscador{
