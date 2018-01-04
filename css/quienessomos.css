@@ -104,7 +104,7 @@ a:hover{
 }
 
 figcaption{
-    color:#1F5941;
+    color:#1F5941; ''
     text-align: center;
 }
 
@@ -117,4 +117,20 @@ img{
 }
 .ourpics{
     width:150px;
+}
+h4{
+    color: #3EAC7E;
+    font-size:14pt;
+    text-align:left;
+    margin-left: 50px;
+}
+p{
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 500px;
+}
+
+h3{
+    font-size: 20pt;
+    margin-left: 30px;
 }
