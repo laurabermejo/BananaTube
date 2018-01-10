@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- fin iconos font-awesome -->
     <link rel="stylesheet"
-          href="css/reproduccion2.css">
+          href="css/reproduccion.css">
 </head>
 <body>
-    <header>
-        <!-- en el php aquí se incluiría el header -->
-    </header>
+    <section>
+        <div id="header"><?php include "includes/inheader.html";?></div>
+    </section>
+    <section id="contenido">
     <section id="video">
         <div id="video-wrapper">
             <div class="video-centro">
@@ -90,8 +91,9 @@
             <a href="#" class="redondito">Otros</a>
         </div>
     </section>
-    <footer>
-        <!-- en el php aquí se incluiría el footer-->
-    </footer>
+</section>
+    <section>
+        <div><?php include "includes/footer.html";?></div>
+    </section>
 </body>
 </html>
