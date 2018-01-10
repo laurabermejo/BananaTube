@@ -1,18 +1,28 @@
 @font-face {
-    font-family: Raleway;
-    src: url(raleway2.woff2);
+    font-family: "Raleway";
+    src: url(../fonts/raleway2.woff2) format("woff2"),
+         url(../fonts/raleway2.ttf) format("truetype");
+}
+@font-face{
+    font-family: "ReenieBeanie";
+        src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
+             url(../fonts/ReenieBeanie.ttf) format("truetype");
 }
 
 body{
     margin: 0;
     padding: 0;
-}
-header {
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
+}
+/*header*/
+#header, footer {
+    background-color: #F2F2F2;
     color: #454545;
     overflow: hidden;
+}
+#header {
+    position: sticky;
 }
 
 #eslogan {
@@ -66,71 +76,24 @@ h4{
     color: #3EAC7E;
 }
 
-
-/*fuentes*/
-@font-face{
-    font-family:"Raleway";
-    src: url("../fonts/raleway2.woff2");
-}
-
 /*formato general del footer*/
 
 footer{
-    background-color:#F2F2F2;
-    overflow:hidden;
-    font-family: "Raleway", arial, sans-serif;
-    position:absolute;
+    width: 100%;
+    position: absolute;
 }
-
-.float-izda{
-    float:left;
-}
-
-.float-dcha{
-    float:right;
-}
-
-li{
+footer li{
     list-style-type:none;
 }
 
-a{
+footer a{
     color: #1F5941;
     text-decoration: none;
 }
-
-a:hover{
+footer a:hover{
     color:#3EAC7E;
 }
-
-figcaption{
-    color:#1F5941; ''
+footer figcaption{
+    color:#1F5941;
     text-align: center;
-}
-
-nav{
-    float: right;
-    overflow: hidden;
-}
-img{
-   box-sizing: content-box
-}
-.ourpics{
-    width:150px;
-}
-h4{
-    color: #3EAC7E;
-    font-size:14pt;
-    text-align:left;
-    margin-left: 50px;
-}
-p{
-    text-align: justify;
-    margin-left: 30px;
-    margin-right: 500px;
-}
-
-h3{
-    font-size: 20pt;
-    margin-left: 30px;
 }
