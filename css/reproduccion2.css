@@ -12,6 +12,7 @@
 
 body{
     background-color: #FFFFFF;
+    font-family:sans-serif;
 }
 
 #video-wrapper{
@@ -24,8 +25,9 @@ body{
     text-align:center;
 }
 
-#infovideo{
+#infovideo, #hashtag, #comentarios, #infodestino, #datosint{
     overflow:hidden;
+    width:100%;
 }
 
 .floatizq{
@@ -78,7 +80,7 @@ body{
     color:#3EAC7E;
     text-decoration-line:none;
 }
-#comentarios header{
+#comentarios header, #infodestino header{
     font-family:"Reenie Beanie", cursive;
     font-size:20pt;
     color:#1F5941;
