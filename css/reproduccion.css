@@ -9,6 +9,7 @@
     src: url("../fonts/ReenieBeanie.woff2") format("woff"),
          url("../fonts/ReenieBeanie.ttf") format("truetype");
 }
+/*Fin fuentes*/
 
 body{
     margin: 0;
@@ -16,6 +17,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+
 /*header*/
 #header, footer {
     background-color: #F2F2F2;
@@ -76,6 +78,8 @@ h4{
 #login a:hover{
     color: #3EAC7E;
 }
+/*Fin header*/
+
 /*cuerpo*/
 #video-wrapper{
     background-color:#454545;
@@ -87,7 +91,7 @@ h4{
     text-align:center;
 }
 
-#infovideo, #hashtag, #comentarios, #infodestino, #datosint{
+#infovideo, #hashtag, #comentarios, #infodestino, #datosint #vidrel{
     overflow:hidden;
     width:100%;
 }
@@ -134,12 +138,19 @@ h4{
     color:#3EAC7E;
     text-decoration-line:none;
 }
-#comentarios header, #infodestino header{
+#comentarios header, #infodestino header, #vidrel div header{
     font-family:"Reenie Beanie", cursive;
     font-size:20pt;
     color:#1F5941;
 }
-/*Estilo botones de la web, cambiar configuración para adaptarlo a la pantalla de reproducción*/
+
+#infodestino, #vidrel{
+    background-color:#F2F2F2;
+}
+/*Botones*/
+a {
+    text-decoration:none;
+}
 
 #submit-buscador{
 	font-family: "Raleway";
@@ -179,7 +190,10 @@ h4{
 		0px 0px 0px rgba(000,000,000,0),
 		0px 0px 0px rgba(255,255,255,0);
 }
-    /* footer*/
+/*Fin botones*/
+}
+
+/* footer*/
 footer{
     width: 100%;
     position: absolute;
@@ -200,3 +214,4 @@ footer figcaption{
     color:#1F5941;
     text-align: center;
 }
+/*Fin footer*/
