@@ -11,11 +11,14 @@
         <script src="js/additional-methods.js"></script>
         <script src="js/messages_es.js"></script>
         <script src=""></script>
+     
     </head>
         <body>
-            <div id="header"><?php include "includes/inheader.html";?></div>
-            <div><?php include "insection1.html";?></div>
-            <div><?php include "insection2.html";?></div>
-            <div><?php include "includes/footer.html";?></div>
+            <div class="container-fluid">
+                <header  class="row"><?php include "includes/inheader.html";?></header>
+                <div  class="row"><?php include "insection1.html";?></div>
+                <div  class="row"><?php include "insection2.html";?></div>
+                <div class="row"><?php include "includes/footer.html";?></div>
+            </div>
         </body>
 </html>
