@@ -8,40 +8,29 @@
         src: url(../fonts/ReenieBeanie.woff2);
 }
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: "Raleway", arial, sans-serif;
     font-size: 14px;
     color:#454545;
-    overflow: hidden;
 }
 #izquierda{
-    width:56%;
     height: 100%;
     text-align: center;
     background-image: url(../imagenes/inicarsesion.png);
     background-repeat: no-repeat;
-    overflow: hidden;
 }
-#derecha{
-    width: 44%;
-}
-.floatder{
-    float: right;
-}
-.floatizq{
-    float: left;
-}
+
 #izquierda h1{
     font-family: "ReenieBeanie";
     font-size: 4em;
     margin-bottom: 15px;
-    margin-left: -110px;
+    /*margin-left: -110px;*/
 }
 #izquierda h2{
     margin-bottom: 5px;
     margin-top: 5px;
-    margin-left: -110px;
+    /*margin-left: -110px;*/
     font-variant: small-caps;
     font-weight: 80%;
     letter-spacing: 4px;
@@ -53,7 +42,6 @@ body{
 }
 h3 img{
     width: 230px;
-    margin-bottom:-22px;
 }
 .formulario{
     margin-left: 130px;
@@ -71,32 +59,30 @@ h3 img{
 .abajo{
     margin-top: 30px;
 }
-.centrado{
+7#fpass{
     text-align: center;
     margin-right: 100px;
-    
 }
-.centrado a{
+#fpass a, #volver a{
     text-decoration: none;
     color: #454545; 
 }
-.centrado a:hover{
+
+#fpass a:hover{
     color: #1f5941;
     font-weight: 600;
-}
-.centrado input:hover{
-    color:#1f5941;
-}
-
-#volver{
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 80px;
-}
-#volver a{
-         color:#454545;
+    text-decoration:none;
 }
 #volver a:hover{
     color: #1f5941;
     font-weight: 600;
+    text-decoration:none;
 }
+
+/*#volver{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 80px;
+}*/
+
+
