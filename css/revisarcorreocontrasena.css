@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Raleway;
     src: url(../fonts/raleway2.woff2);
@@ -7,61 +6,42 @@
     font-family: ReenieBeanie;
         src: url(../fonts/ReenieBeanie.woff2);
 }
+/*General*/
 body{
-    margin: 0;
-    padding: 0;
     font-family: "Raleway", arial, sans-serif;
     font-size: 14px;
     color:#454545;
-    overflow: hidden;
 }
+/*Maquetado imagen izquierda*/
 #izquierda{
-    width:56%;
+    width:100%;
     height: 100%;
     text-align: center;
     background-image: url(../imagenes/inicarsesion.png);
     background-repeat: no-repeat;
-    overflow: hidden;
 }
-#derecha{
-    width: 44%;
-}
-.floatder{
-    float: right;
-}
-.floatizq{
-    float: left;
-}
+/*Textos izquierda*/
 #izquierda h1{
+    margin-top:10px;
     font-family: "ReenieBeanie";
     font-size: 4em;
-    margin-bottom: 15px;
-    margin-left: -110px;
 }
 #izquierda h2{
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: -110px;
+    margin-bottom: 2px;
+    margin-top: 2px;
     font-variant: small-caps;
     font-weight: 80%;
     letter-spacing: 4px;
 }
+/*Maquetado derecha*/
 #derecha h3{
-    margin-left: 110px;
-    margin-top: 130px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom:30px;
     font-size: 2em;
 }
-#derecha h4{
-    width: 425px;
-    margin-left:80px;
-    text-align: justify;
-}
-
+/*Enlaces*/
 #volver{
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 100px;
+    margin-top: 295px;
 }
 #volver a{
          color:#454545;
@@ -69,4 +49,6 @@ body{
 #volver a:hover{
     color: #1f5941;
     font-weight: 600;
+    text-decoration:none;
 }
+/*Media queries*/

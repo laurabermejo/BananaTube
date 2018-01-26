@@ -3,20 +3,47 @@
     <head>
     <meta charset="utf-8"/>
     <title>Recuperar contraseña</title>
-        <link rel="stylesheet" media="all" href="css/revisarcorreocontrasena.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/revisarcorreocontrasena.css"/>
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/additional-methods.js"></script>
+    <script src="js/messages_es.js"></script>
+    <script src=""></script>
     </head>
     <body>
-        <section id="izquierda" class="floatizq">
-        <h1>Hola bananer</h1>
-        <h2>Comparte tu visión,</h2>
-        <h2>añade tu videoviaje</h2>
-        </section>
-        <section id="derecha" class="floatder">
-            <h3>RECUPERAR CONTRASEÑA</h3>
-            <h4>REVISA TU CORREO ELECTRÓNICO, TE HEMOS ENVIADO UN ENLACE PARA RECUPERAR TU CONTRASEÑA</h4>
-             <div id="volver">
-        <a href="index.php">Volver a inicio</a>
+        <div class="container-fluid">
+            <div class="row">
+                <!--Lado izquierdo-->
+                <section id="izquierda" class="d-none d-md-block col-md-6 col-lg-6 col-xl-6">
+                    <div class="row">
+                        <h1 class="col-md-12 col-lg-12 col-xl-12 self-center">Hola bananer</h1>
+                    </div>
+                    <div class="row">
+                        <h2 class="col-md-12 col-lg-12 col-xl-12 self-center">Comparte tu visión,</h2>
+                    </div>
+                    <div class="row">
+                        <h2 class="col-md-12 col-lg-12 col-xl-12 self-center">añade tu videoviaje</h2>
+                    </div>
+                </section>
+                <!--/Lado izquierdo-->
+                <!--Lado derecho-->
+                <section id="derecha" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div>
+                        <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">RECUPERAR CONTRASEÑA</h3>
+                    </div>
+                    <div>
+                        <h5 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">Revisa tu correo electrónico, te hemos enviado un enlace para recuperar tu contraseña</h5>
+                    </div>
+                    <div id="volver" class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                            <a href="index.php">Volver a inicio</a>
+                        </div>
+                    </div>
+                </section>
+                <!--/Lado derecho-->
+            </div>
         </div>
-        </section>
     </body>
 </html>
