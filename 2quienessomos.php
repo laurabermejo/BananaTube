@@ -52,44 +52,7 @@
         </section>  
         <hr>
         
- <footer>
-     <nav id="izq" class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4">
-    <ul>
-        <li><strong><a href="quienessomos.html">QUIÉNES SOMOS</a></strong></li>
-        <li><strong><a href="#">PREGUNTAS FRECUENTES</a></strong></li>
-        <li><strong><a href="contacto.php">CONTACTO</a></strong></li>
-    </ul>
-     </nav>
-        <div class="col-xl-3 offset-xl-6 col-lg-4 offset-lg-5 col-md-4 offset-md-4 col-sm-6 col-7 " id="dcha">
-        <div class="row text-right">
-        <div class="col-xl-12">
-            <a  href="http://twitter.com/">
-                        <img src="imagenes/socialmedia/twitter.png" 
-                             alt="Twitter"/></a>
-        
-            <a  href="http://facebook.com/">
-                        <img src="imagenes/socialmedia/facebook.png"
-                             alt="Facebook"/></a>
-        
-            <a  href="http://plus.google.com/">
-                        <img src="imagenes/socialmedia/google-plus.png"
-                             alt="Google+"/></a>
-      
-            <a href="http://www.instagram.com/">
-            
-                        <img src="imagenes/socialmedia/instagram.png"
-                             alt="Instagram"/></a>
-        
-            <a href="http://www.youtube.com/">
-                        <img src="imagenes/socialmedia/youtube.png"
-                             alt="YouTube"/></a>
-      
-                    </div>
-                </div>
-            <div class="row text-right">
-            <div class="col-xl-12"><strong>&copy;BANANATUBE 2017</strong></div>
-            </div>   
-        </div>
-     </footer>  
+ <footer class="row"><?php include "includes/footer.html";?></footer>
+     
     </body>
 </html>
