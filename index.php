@@ -17,8 +17,8 @@
             <div class="container-fluid">
                 <header  class="row"><?php include "includes/inheader.html";?></header>
                 <div  class="row"><?php include "insection1.html";?></div>
-                <div  class="row"><?php include "insection2.html";?></div>
-                <div class="row"><?php include "includes/footer.html";?></div>
+                <div  class="row "><?php include "insection2.html";?></div>
+                <footer class="row" ><?php include "includes/footer.html";?></footer>
             </div>
         </body>
 </html>

@@ -13,32 +13,22 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 14px;   
 }
+
 /*header*/
-#header, footer {
-    background-color: #F2F2F2;
-    color: #454545;
-    overflow: hidden;
-}
-#header {
-    position: sticky;
+
+#cabecera{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
 }
 
-#eslogan {
-    margin: 0px;
-}
 
-#bananalogo{
-    margin-right: 65px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-#login p{
-    padding-top: 20px;
-    padding-right: 50px;
-    
-    
+#login{
+    margin-top: 25px;
 }
 #login a{
     color:#1f5941;
@@ -46,35 +36,66 @@ body{
     border-right: 1px solid #1f5941;
     text-decoration: none; 
 }
-h4{
-    margin:0;
-    padding-bottom: 10px;
-}
-.setenta{
-    width: 70%;
-}
-.treinta{
-    width: 30%;
-}
-.treinta p{
-    margin-left: 20px;
-}
-.centrado{
-    text-align: center;
-}
-.over{
-    overflow: hidden;
-    height: 49px;
-}
-.floatizq {
-    float: left;
-}
-.floatder {
-    float: right;
-}
-#login a:hover{
+#logincab a:hover{
     color: #3EAC7E;
 }
+/*Main content*/
+section{
+    background-image:url(../imagenes/snow2000.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+h3{
+    background-color:rgb(242, 212, 167);opacity:0.4;
+    font-family:Raleway,arial,sans-serif;
+    font-size: 24pt;
+    font-variant: small-caps;
+    } 
+
+#who{
+    background-image:url(../imagenes/nevadosomos.jpg);opacity: 0.67;
+    width:100%;
+    padding-top: 2%;
+    font-family:"ReenieBeanie";
+    font-size: 28pt;
+}
+
+#meetus{
+      background-color: rgba(153, 153, 153,0.6);
+        margin-bottom: 100px;
+        margin-top: 70px;
+        height: 500px;
+}
+
+
+h4{
+    font-family:"ReenieBeanie";
+    font-size: 30pt;
+    text-align: center;
+}
+
+#marianspic{
+    width:50%;
+    padding-top:5%;
+}
+
+#lauraspic{
+    width:50%;
+    padding-top:5%;
+}
+
+
+#noemispic{
+    width:50%;
+    padding-top:5%;
+}
+
+p{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 
 /*formato general del footer*/
 
