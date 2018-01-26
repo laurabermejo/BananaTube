@@ -45,6 +45,7 @@ body{
     background-repeat: no-repeat;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 10px;
 }
 #formindex{
     padding: 100px;
@@ -59,19 +60,19 @@ body{
 #insectiona{
         background-color: rgba(153, 153, 153,0.8);
         margin-bottom: 100px;
+        margin-top: 70px;
         height: 300px;
 }
 #insectiona h3{
     color: #1F5941;
     font-family: "ReenieBeanie", cursive;
-    font-size: 2.7em;
-    margin-left:20%;
-    padding: 27px;   
+    font-size: 2.5em;
+    padding: 27px;
+    margin-top: 30px;
 }
 
 #bloquesin h4{
     color:#454545;
-    text-align: center;
     padding: 18px;
     margin-left: 0px;
     font-variant: small-caps;
@@ -80,11 +81,27 @@ body{
     }
 #bloquesin p{
     color:#454545;
-    text-align: center;
     line-height: 20px;
 }
+@media screen and (min-width: 804px) and (max-width: 1240px) {
+    #insectiona{
+         height: 300px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 803px) {
+    #insectiona{
+         height: 450px;
+    }
+}
+@media screen and (max-width: 500px){
+    #insectiona{
+         height: 500px;
+    }
+}  
 
 /*insection2*/
+
+
 #fondo {
     background-image: url(../imagenes/backsec2.png);
     color: #454545;
@@ -94,6 +111,7 @@ body{
     margin-top: 40px;
     margin-bottom: 40px;
     height: 400px;
+    width: 101%;
 }
 
 #prim{
@@ -101,17 +119,83 @@ body{
     padding-left: 30px;
 }
 #seg{
-    margin-top: 300px;
-    margin-left: 100px;
+    margin-top: 50px;
+    
+
 }
 #fondo img{
     margin-top: 30px;
-    margin-left: 60px;
+    padding: 0 auto;
+    width: 550px;
+
+
 }
 #fondo p{
     font-family: "ReenieBeanie";
     font-size: 20px;
 }
+/*@media screen and (min-width: 930px)
+{
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 230px;
+
+    }
+}
+@media screen  and (min-width: 678px) and (max-width: 930px)  {
+    #fondo img{
+        width: 350px;
+        padding-left: 80px;
+    }
+    #fondo p{
+        font-size: 24px;
+    }
+    #fondo{
+        height: 230px;
+
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 678px)  {
+    #fondo img{
+        width: 290px;
+
+    }
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 230px;
+
+    }
+}
+@media screen and (min-width: 438px) and (max-width: 576px)  {
+    #fondo img{
+        width: 220px;
+
+    }
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 230px;
+
+    }
+}
+@media screen and (max-width: 438px)
+{
+
+    
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 230px;
+
+    }
+}/*
+
 
 
 /* footer*/
