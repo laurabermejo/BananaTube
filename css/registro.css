@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Raleway;
     src: url(../fonts/raleway2.woff2);
@@ -7,95 +6,80 @@
     font-family: ReenieBeanie;
         src: url(../fonts/ReenieBeanie.woff2);
 }
+/*General*/
 body{
-    margin: 0;
-    padding: 0;
     font-family: "Raleway", arial, sans-serif;
     font-size: 14px;
     color:#454545;
-    overflow: hidden;
 }
+/*Maquetado imagen izquierda*/
 #izquierda{
-    width:50%;
+    width:100%;
     height: 100%;
     text-align: center;
     background-image: url(../imagenes/registro.png);
     background-repeat: no-repeat;
-    overflow: hidden;
 }
-.floatizq{
-    float: left;
-}
-
+/*Textos izquierda*/
 #izquierda h1{
-    margin-left: -30px;
-    margin-top: 60px;
+    margin-top: 10px;
     font-size: 2em;
 }
 h1 img{
-    width: 220px;
-    margin-bottom:-23px;
+    width: 230px;
 }
 #izquierda h4{
-    margin-bottom: 5px;
-    margin-top: 30px;
-    margin-left: -50px;
+    margin-bottom: 4px;
+    margin-top: 2px;
     font-variant: small-caps;
     font-weight: 80%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     line-height: 20px;
 }
-#derecha{
-    width: 50%;
-    text-align: center;
-}
-#derecha h2{
-    margin-left: -20px;
+/*Maquetado derecha*/
+#derecha h3{
     margin-top: 100px;
     font-size: 2em;
 }
-
-.formulario{
-    margin-left: 130px;
-    text-align: left;
-}
-.campos{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 30px;
-    width: 300px;
-}
 #formregistro{
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-top: 20px;
 }
 #check{
     font-size: 10px;
-    margin-bottom: 30px;
-    margin-right: 110px;
 }
 #check a{
     color:#454545;
+    text-decoration:none;
 }
 #check a:hover{
     color:#1f5941;
     font-weight: 600;
+    text-decoration:none;
 }
-#boton{
-    margin-right: 50px;
-}
-#boton:hover{
-    color:#1f5941;
-}
-#volver{
-    text-align: right;
-    margin-right: 150px;
-    margin-top: 80px;
-}
+/*Enlaces*/
 #volver a{
-         color:#454545;
+    text-decoration:none;
+    color:#454545;
 }
 #volver a:hover{
     color: #1f5941;
     font-weight: 600;
+    text-decoration:none;
+}
+/*Media queries*/
+@media screen and (min-width:767px) and (max-width:1038px){
+    #izquierda h1{
+        margin-left:0;
+        font-size:1.75em;
+    }
+    #izquierda h4{
+        margin-left:0;
+        font-size:1.65em;
+    }
+    #izquierda{
+        background-size:cover;
+    }
+    h1 img{
+        width:170px;
+    }
 }
