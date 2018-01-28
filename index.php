@@ -14,10 +14,10 @@
      
     </head>
         <body>
-            <div class="container-fluid">
+            <div class="container-fluid margin">
                 <header  class="row"><?php include "includes/inheader.html";?></header>
-                <div  class="row"><?php include "insection1.html";?></div>
-                <div  class="row "><?php include "insection2.html";?></div>
+                <div  class="margin container-fluid "><?php include "insection1.html";?></div>
+                <div  class="row text-center"><?php include "insection2.html";?></div>
                 <footer class="row" ><?php include "includes/footer.html";?></footer>
             </div>
         </body>
