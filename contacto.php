@@ -39,7 +39,7 @@
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="mensaje">MENSAJE:</label>
                             <br/>
-                            <input type="textarea" name="mensaje" id="mensaje" value="" autocomplete="off" class="form-control" />
+                            <textarea rows="5" cols="4" name="mensaje" id="mensaje" value="" autocomplete="off" class="form-control"></textarea>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <button class="btn btn-light" type="submit" name="button" value="">ENVIAR</button>
