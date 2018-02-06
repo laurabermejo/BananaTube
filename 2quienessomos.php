@@ -30,14 +30,14 @@
                     </div>
                 <div class="col-xl-4">
                     <center>
-                        <img id="lauraspic"src="imagenes/monkey%20(2).png" alt="Laura"/>
+                        <img id="lauraspic"src="imagenes/monkey%20(2)3.png" alt="Laura"/>
                     </center>
                     <h4>Laura</h4>
                         <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
                     </div>
                 <div class="col-xl-4">
                     <center>
-                        <img id="noemispic"src="imagenes/monkey.png" alt="Noemí"/>
+                        <img id="noemispic"src="imagenes/monkey3.png" alt="Noemí"/>
                     </center>
                     <h4>Noemí</h4>
                         <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
