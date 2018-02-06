@@ -52,3 +52,11 @@ body{
     text-decoration:none;
 }
 /*Media queries*/
+@media screen and (max-width:768px){
+    #derecha{
+        background-image:url(../imagenes/inciarsesion-sm2.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
+}

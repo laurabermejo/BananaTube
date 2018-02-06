@@ -73,6 +73,14 @@ h3 img{
         width:170px;
     }
 }
+@media screen and (max-width:768px){
+    #derecha{
+        background-image:url(../imagenes/inciarsesion-sm2.png);
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
+}
 @media screen and (max-width:519px){
     #derecha h3{
         margin-left:0;

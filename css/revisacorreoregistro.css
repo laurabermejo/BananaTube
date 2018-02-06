@@ -13,8 +13,6 @@ body{
     font-family: Raleway,arial,sans-serif;
     font-size: 14px;
     background-image: url(../imagenes/fondoverifica.png);
-    overflow: hidden;
-    position: relative;
 }
 #cuadro{
     overflow: hidden;
