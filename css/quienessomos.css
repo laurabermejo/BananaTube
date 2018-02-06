@@ -114,9 +114,10 @@ p{
 /*formato general del footer*/
 
 footer{
-    padding-right: 15px;
-    padding-top: 20px;
+    padding-right: 25px;
+    padding-top: 12px;
     background-color: #F2F2F2;
+    height: 90px;
 }
 
 footer li{
