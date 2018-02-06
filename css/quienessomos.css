@@ -47,26 +47,34 @@ header{
 }
 
 /*Main content*/
-
+#titular{
+    background-color: rgba(255, 255, 255,0.6);
+    margin-top: 30px;
+}
 #titulo{
-    height: 60px;
+    height: 40px;
     letter-spacing: 20px;
     margin: 35px;
-    padding-top: 10px;
+    margin-bottom: 20px;
     font-size: 2.3em;
     font-weight:bolder;
 }
 
 #who{
     font-family:"ReenieBeanie";
-    font-size: 16pt;
+    font-size: 20pt;
+    padding: 0 auto;
+    padding-bottom: 10px;
+    margin: 0 auto;
 }
 
 #meetus{
       background-color: rgba(255, 255, 255,0.6);
-        margin-bottom: 70px;
-        margin-top: 70px;
-        height: 500px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
 }
 
 
@@ -77,18 +85,18 @@ h4{
 }
 
 #marianspic{
-    width:50%;
+    width:30%;
     padding-top:5%;
 }
 
 #lauraspic{
-    width:50%;
+    width:30%;
     padding-top:5%;
 }
 
 
 #noemispic{
-    width:50%;
+    width:30%;
     padding-top:5%;
 }
 
@@ -98,13 +106,17 @@ p{
 }
 
 #derechos{
-    text-align: right;
+    background-color: rgba(255, 255, 255,0.6);
+    text-align: center;
+    padding: 5px;
+    
 }
 /*formato general del footer*/
 
 footer{
     padding-right: 15px;
-    background-color:#4545;
+    padding-top: 20px;
+    background-color: #F2F2F2;
 }
 
 footer li{

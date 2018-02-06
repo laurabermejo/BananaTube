@@ -16,9 +16,9 @@
        <!---->
       <header class="row"><?php include "includes/inheader.html";?></header>
          <section class="container-fluid">
-                <div  class="row">
-                    <p id="titulo" class="center col-xl-12  col-lg-12"> QUIÉNES SOMOS</p>
-                    <p id="who" class="col-xl-12  col-lg-12 center">¿De dónde venimos? ¿Adónde vamos?</p>    
+                <div id="titular" class="row">
+                    <p id="titulo" class="text-center col-xl-12  col-lg-12"> QUIÉNES SOMOS</p>
+                    <p id="who" class="col-xl-12  col-lg-12 text-center">¿De dónde venimos? ¿Adónde vamos?</p>    
                 </div>
             <div id="meetus" class="row">
                 <div class="col-xl-4">
@@ -45,10 +45,10 @@
             </div>
                  </div>
         </section>  
-    <section id="derechos">
-        <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <section class="row" id="derechos">
+        <div class="col-xl-12">Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </section>
-        <hr/>
+        
  <footer class="row"><?php include "includes/footer.html";?></footer>
      
     </body>
