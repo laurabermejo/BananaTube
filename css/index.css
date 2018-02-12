@@ -34,8 +34,9 @@ header{
     border-right: 1px solid #1f5941;
     text-decoration: none; 
 }
-#logincab a:hover{
+#login a:hover{
     color: #3EAC7E;
+    text-decoration: none; 
 }
 
 /*insection1*/
@@ -180,7 +181,13 @@ header{
 
 /* footer*/
 footer{
+    padding-top: 20px;
+    margin: 0 auto;
     padding-right: 15px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
 }
 
 footer li{
@@ -194,4 +201,5 @@ footer a{
 }
 footer a:hover{
     color:#3EAC7E;
+    text-decoration: none;
 }

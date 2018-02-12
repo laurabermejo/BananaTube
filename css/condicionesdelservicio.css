@@ -35,14 +35,19 @@ header{
     border-right: 1px solid #1f5941;
     text-decoration: none; 
 }
-#logincab a:hover{
+#login a:hover{
     color: #3EAC7E;
+    text-decoration: none; 
 }
 
 /*desarrollo*/
-#volver{
+#volver a{
     margin-top: 20px;
     margin-right: 30px;
+    color:#454545;
+}
+#volver a:hover{
+        color:#3EAC7E;
 }
 
 #contenido{
@@ -66,9 +71,11 @@ li{
 footer a{
     color: #1F5941;
     text-decoration: none;
+    
 }
 a:hover{
     color:#3EAC7E;
+    text-decoration: none;
 }
 figcaption{
     color:#1F5941;
