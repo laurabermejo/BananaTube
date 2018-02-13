@@ -4,23 +4,31 @@
 <head>
     <meta charset="utf-8" />
     <title>Verificar correo</title>
-    <link href="css/revisacorreoregistro.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/revisacorreoregistro.css"/>
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src=""></script>
 </head>
 
 <body>
-    <div id="cuadro">
-        <div id="bienv" class="floatizq">
-            <h2>BIENVENIDO A</h2>
+    <div id="cuadro" class="container-fluid">
+        <div id="bienv" class="row">
+            <h3 class="col-8 col-sm-8 col-md-8 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2 text-center">BIENVENIDO A <img src="imagenes/logo-banana-gris.png"/></h3>
+            </div>
+        <div id="casi" class="row">
+            <h4 class="col-8 col-sm-8 col-md-8 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">¡Ya casi estamos!</h4>
         </div>
-        <div id="casi" class="floatizq">
-            <h3>¡YA CASI ESTAMOS!</h3>
-            <h4>Verifica tu correo</h4>
+        <div class="row">
+            <h6 class="col-8 col-sm-8 col-md-8 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">Verifica tu correo</h6>
         </div>
-        <div id="volver" class="floatizq">
-            <a href="index.php">VOLVER AL INICIO</a>
-        </div>
-        <div id="img" class="floatizq">
-            <img src="imagenes/monoverifica.png" alt="BananaTube" width="1300px" />
+        <div id="volver" class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <a href="index.php" class="">Volver al inicio</a>
+            </div>
+            <div id="mono" class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img src="imagenes/monoverifica.png" alt="BananaTube"/>
+            </div>
         </div>
     </div>
 </body>

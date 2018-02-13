@@ -96,6 +96,7 @@
             </section>
         </div>
     </div>
+     <footer class="row"><?php include "includes/footer.html";?></footer>
 </body>
 
 </html>
