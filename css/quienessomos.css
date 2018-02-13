@@ -115,7 +115,8 @@ p{
 
 footer{
     padding-right: 25px;
-    padding-top: 12px;
+    padding-top: 15px;
+    margin-top: 20px;
     background-color: #F2F2F2;
     height: 90px;
 }
@@ -132,3 +133,25 @@ footer a{
 footer a:hover{
     color:#3EAC7E;
 }
+
+/*responsive*/
+@media screen and (max-width:778px){
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:640px){
+    footer{
+        font-size: 10px;
+        height: 100px;
+    }
+    img footer{
+        width: 10px;
+    }
+    #titulo{
+        font-size: 2.2em;
+        padding-bottom: 60px;
+    }
+}
+    

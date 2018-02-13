@@ -203,3 +203,16 @@ footer a:hover{
     color:#3EAC7E;
     text-decoration: none;
 }
+/*responsive*/
+@media screen and (max-width:778px){
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:640px){
+    footer{
+        font-size: 10px;
+        height: 100px;
+    }
+}

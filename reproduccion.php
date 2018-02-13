@@ -3,45 +3,37 @@
 <head>
     <meta charset="utf-8">
     <title>Paseo por Roraima - BananaTube</title>
-    <!-- para usar iconos font-awesome -->
     <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/reproduccion.css"/>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <!-- fin iconos font-awesome -->
-    <link rel="stylesheet"
-          href="css/reproduccion.css"/>
+
 </head>
 <body>
     <!--Encabezado-->
-    <section>
-        <div id="header"><?php include "includes/inheader.html";?></div>
-    </section>
+        <header class="row"><?php include "includes/inheader.html";?></header>
     <!--Fin encabezado-->
     <!--Contenido principal-->
-    <section id="contenido">
-        <section id="video">
-            <div id="video-wrapper">
-                <div class="video-centro">
+    <section id="contenido" class="row">
+        <section id="video" class="col-xl-12">
+            <div id="video-wrapper" class="row">
+                <div class="video-centro" class="col-xl-12">
                     <video src="videos/roraima.mp4" controls width="50%"></video>
                 </div>
             </div>
-            <div id="infovideo">
-                <div id="texto-video" class="floatizq">
+            <div id="infovideo" class="row">
+                <div id="texto-video" class="col-xl-12">
                     <header>Paseo por Roraima</header>
                     <p><img src="" /> <strong>experiencia de</strong> Pepito Pérez <strong>el 5 de diciembre de 2017</strong></p>
                 </div>
-                <div id="repro-compartir" class="floatder">
-                    <div id="repro-video" class="floatizq">Reproducciones</div>
-                    <div id="sharebut" class="floatizq">
-                        <i class="fa fa-share-alt" aria-hidden="true"></i>
-                    </div>
-                    <div id="megustabut">
-                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <div id="repro-compartir" class="col-xl-12">
+                    <div id="repro-video">Reproducciones<i class="fa fa-share-alt" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
-            <div id="hashtag" class="floatizq">
+            <div id="hashtag" class="row">
                 <p>
                     <a href="#">#Viajes</a> 
                     <a href="#">#Roraima</a> 
@@ -52,8 +44,8 @@
             </div>
         </section>
     <!-- info video y social-->
-        <section id="comentarios">
-            <div class="floatizq">
+        <section id="comentarios" class="col-xl-12">
+            <div class="row">
                 <header>Comentarios</header>
                 <div>
                     <div>
@@ -76,26 +68,7 @@
                 </div>
             </div>
         </section>
-        <section id="infodestino">
-            <div class="floatizq">
-                <header>Información del destino</header>
-                <img src="" />
-            </div>
-            <div>
-                <div class="floatder">
-                    <header>Datos interesantes</header>
-                    <ul>
-                        <li>Es conocida también como la "Madre de Todas las Aguas".</li>
-                        <li>Su cima es compartida por tres países diferentes: Venezuela, Brasil y Guayana.</li>
-                        <li>Hay varias especies de mariposas endémicas de esta zona, como <i>Pedaliodes roraimae</i>.</li>
-                    </ul>
-                </div>
-                <div class="floatder">
-                    <a href="#" id="submit-buscador" class="redondito">Ver más</a>
-                </div>
-            </div>
-        </section>
-        <section id="vidrel">
+        <section class="row">
             <div>
                 <header>Vídeos relacionados</header>
                 <div></div>
@@ -108,9 +81,7 @@
     </section>
     <!--Fin contenido principal-->
     <!--Footer-->
-    <section>
-        <div><?php include "includes/footer.html";?></div>
-    </section>
+    <footer class="row" ><?php include "includes/footer.html";?></footer>
     <!--Fin de footer-->
 </body>
 </html>
