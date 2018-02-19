@@ -21,36 +21,45 @@
                     <p id="who" class="col-xl-12  col-lg-12 text-center">¿De dónde venimos? ¿Adónde vamos?</p>    
                 </div>
             <div id="meetus" class="row">
+                <div>
+                <h4 id="MB">Monkey Business</h4>
+                <p id="descripcion">En Monkey Business somos unas apasionadas de los viajes y gracias a ello hemos reunido las funcionalidades de tus plataformas preferidas en una sola página. Porque queremos crear una espacio único para personas curiosas, con ilusión por viajar y ganas de compartir. 
+                </p>
+                </div>
                 <div class="col-xl-4">
                     <center>
                         <img id="marianspic" src="imagenes/monkey%20(1).png" alt="Marian"/>
                     </center>
                     <h4>Marian</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                        <h5>Dirección de producto</h5>
+                        <p>Gracias a sus años de experiencia como agente de viajes es experta en muchísimos destinos. Es una viajera todoterreno, disfrutará tanto en una ruta mochilera conociendo street-foods asiáticos como en un crucero a todo lujo por el Atlántico. Su lugar favorito es el sur de Irlanda y su destino soñado es Japón.
+                        </p>
                     </div>
                 <div class="col-xl-4">
                     <center>
                         <img id="lauraspic"src="imagenes/monkey(2)3.png" alt="Laura"/>
                     </center>
                     <h4>Laura</h4>
-                        <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                        <h5>Dirección de tecnología</h5>
+                        <p>Nuestra experta en comunicación audiovisual y front-end contrasta su trabajo entre monitores y nuevas tecnologías con su pasión por la naturaleza. Para ella no hay mejor opción que perderse por los bosques y las playas de Galicia. Sueña con ir a Noruega, dormir en el hielo y ver la aurora boreal.
+                        </p>
                     </div>
                 <div class="col-xl-4">
                     <center>
                         <img id="noemispic"src="imagenes/monkey3.png" alt="Noemí"/>
                     </center>
                     <h4>Noemí</h4>
-                        <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
-                
+                        <h5>Dirección de diseño y UX</h5>
+                        <p>En otra vida fue sommelier de té y eso se refleja en su gusto delicado y armonioso. Sus estudios de Biología le permiten llevar el diseño a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
+                        </p>      
             </div>
                  </div>
         </section>  
-    
-        
- <footer class="row"><?php include "includes/footer.html";?></footer>
-        <section class="row" id="derechos">
+    <section class="row" id="derechos">
         <div class="col-xl-12">Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </section>
+        
+ <footer class="row"><?php include "includes/footer.html";?></footer>
      
     </body>
 </html>
