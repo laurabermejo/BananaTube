@@ -8,6 +8,7 @@
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/vindicate.js"></script>
+        <script src="js/subirvideo.js"></script>
     </head>
     <body>
         <header class="row">
