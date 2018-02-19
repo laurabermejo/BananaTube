@@ -16,38 +16,37 @@
         <header class="row"><?php include "includes/inheader.html";?></header>
     <!--Fin encabezado-->
     <!--Contenido principal-->
-    <section id="contenido" class="row">
-        <section id="video" class="col-xl-12">
-            <div id="video-wrapper" class="row">
-                <div class="video-centro" class="col-xl-12">
+    <section id="contenido" class="container">
+        <section id="video" class="row">
+            <div id="video-wrapper"  class="col-xl-12">
+                <div class="video-centro">
                     <video src="videos/roraima.mp4" controls width="50%"></video>
                 </div>
             </div>
-            <div id="infovideo" class="row">
-                <div id="texto-video" class="col-xl-12">
-                    <header>Paseo por Roraima</header>
-                    <p><img src="" /> <strong>experiencia de</strong> Pepito Pérez <strong>el 5 de diciembre de 2017</strong></p>
+            <div id="infovideo" class="col-xl-12">
+                    <h3>Paseo por Roraima</h3>
+                    <div class="row col-xl-6">
+                        <div class="col-xl-12 text-left">
+                            <p><img src="" /> <strong>Pepito Pérez </strong>   5 de diciembre de 2017</p>
+                                <p id="hashtag">
+                                <a href="#">#Viajes</a> 
+                                <a href="#">#Roraima</a> 
+                                <a href="#">#Venezuela</a> 
+                                <a href="#">#Naturaleza</a> 
+                                <a href="#">#Aventura</a>
+                            </p>
+                        </div>
                 </div>
-                <div id="repro-compartir" class="col-xl-12">
-                    <div id="repro-video">Reproducciones<i class="fa fa-share-alt" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i>
-                    </div>
-                </div>
+                <div id="repro-video" class="col-xl-6 text-right">Reproducciones<i class="fa fa-share-alt" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
             </div>
-            <div id="hashtag" class="row">
-                <p>
-                    <a href="#">#Viajes</a> 
-                    <a href="#">#Roraima</a> 
-                    <a href="#">#Venezuela</a> 
-                    <a href="#">#Naturaleza</a> 
-                    <a href="#">#Aventura</a>
-                </p>
-            </div>
+           
         </section>
     <!-- info video y social-->
-        <section id="comentarios" class="col-xl-12">
-            <div class="row">
-                <header>Comentarios</header>
-                <div>
+        <section id="comentarios" class="row">
+       
+                <h3>Comentarios</h3>
+                <div class="col-xl-12">
                     <div>
                         <img src=""/>
                         <div id="com1">
@@ -63,18 +62,13 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <a href="#"id="submit-buscador" class="redondito">Escribir un comentario</a>
-                </div>
-            </div>
         </section>
+    <br>
         <section class="row">
-            <div>
-                <header>Vídeos relacionados</header>
+            <div class="col-xl-12">
+                <h3>Vídeos relacionados</h3>
                 <div></div>
             <!-- previsualización otros vídeos -->
-            </div>
-            <div>
                 <a href="#" id="submit-buscador" class="redondito">Otros</a>
             </div>
         </section>
