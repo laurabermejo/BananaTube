@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/subirvideo.css"/>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/tether.min.js"></script>
         <script src="js/vindicate.js"></script>
         <script src="js/subirvideo.js"></script>
     </head>

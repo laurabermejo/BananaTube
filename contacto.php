@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/contacto.css" media="all" />
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/tether.min.js"></script>
     <script src="js/vindicate.js"></script>
     <script src="js/contacto.js"></script>
 </head>
