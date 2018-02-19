@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/raleway2.woff2) format("woff2"),
+         url(../fonts/raleway2.ttf) format("truetype");
+}
+@font-face{
+    font-family: "ReenieBeanie";
+        src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
+             url(../fonts/ReenieBeanie.ttf) format("truetype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+/*header*/
+header{
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
+}
+#login{
+    margin-top: 25px;
+}
+#login a{
+    color:#1f5941;
+    padding-right: 5px;
+    border-right: 1px solid #1f5941;
+    text-decoration: none; 
+}
+#login a:hover{
+    color: #3EAC7E;
+    text-decoration: none; 
+}
+
+/* portada*/
+#portada{
+    background-image: url(../imagenes/oporto.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    height: 300px;
+}
+
+#foto{
+    padding-top: 150px;
+}
+#info h3{
+    letter-spacing: 16px;
+    text-align: justify;
+    font-size: 2.3em;
+    font-weight:bolder;
+    padding-left: 50px;
+}
+#info button{
+    height: 35px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+#info button a{
+    color: #454545;
+    text-decoration: none;
+}
+#info button a:hover{
+        text-decoration: none;
+        color: #454545;
+} 
+#info h2{
+    margin-top: 30px;
+    font-size: 18px;
+    padding-right: 55px;
+    border-right: 1px solid #454545;
+}
+
+#contenido, #mapa{
+    margin: 40px;
+    background-color: #F2F2F2;
+    padding: 15px;
+    height: 400px;
+}
+
+
+
+
+
+/* footer*/
+footer{
+    padding-top: 20px;
+    margin: 0px;
+    padding-right: 15px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
+}
+
+footer li{
+    list-style-type:none;
+}
+
+footer a{
+    color: #1F5941;
+    text-decoration: none;
+    padding: 0 auto;
+}
+footer a:hover{
+    color:#3EAC7E;
+    text-decoration: none;
+}
+/*responsive*/
+@media screen and (max-width:778px){
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:640px){
+    footer{
+        font-size: 10px;
+        height: 100px;
+    }
+}
