@@ -41,13 +41,22 @@
                         <p>Nuestra experta en comunicación audiovisual y front-end contrasta su trabajo entre monitores y nuevas tecnologías con su pasión por la naturaleza. Para ella no hay mejor opción que perderse por los bosques y las playas de Galicia. Sueña con ir a Noruega, dormir en el hielo y ver la aurora boreal.
                         </p>
                     </div>
+                     <div class="col-xl-4">
+                    <center>
+                        <img id="virginiaspic" src="imagenes/monkeyVir.png" alt="Virginia"/>
+                    </center>
+                    <h4>Virginia</h4>
+                        <h5>Dirección de diseño</h5>
+                        <p>#
+                        </p>
+                    </div>
                 <div class="col-xl-4">
                     <center>
                         <img id="noemispic"src="imagenes/monkey3.png" alt="Noemí"/>
                     </center>
                     <h4>Noemí</h4>
-                        <h5>Dirección de diseño y UX</h5>
-                        <p>En otra vida fue sommelier de té y eso se refleja en su gusto delicado y armonioso. Sus estudios de Biología le permiten llevar el diseño a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
+                        <h5>Dirección de UX</h5>
+                        <p>En otra vida fue sommelier de té y eso se refleja en su capacidad de distinguir los matices y encontrar la armonía en cada detalle. Sus estudios de Biología le permiten llevar la experiencia de usuario a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
                         </p>      
             </div>
                  </div>
