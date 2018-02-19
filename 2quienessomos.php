@@ -22,24 +22,25 @@
                 </div>
             <div id="meetus" class="row">
                 <div>
-                <p>En Monkey Business somos unas apasionadas de los viajes y gracias a ello hemos reunido las funcionalidades de tus plataformas preferidas en una sola página. Porque queremos crear una espacio único para personas curiosas, con ilusión por viajar y ganas de compartir. 
-                </p>
+                <h4 id="MB">Monkey Business</h4>
+                <h6>En Monkey Business somos unas apasionadas de los viajes y gracias a ello hemos reunido las funcionalidades de tus plataformas preferidas en una sola página. Porque queremos crear una espacio único para personas curiosas, con ilusión por viajar y ganas de compartir. 
+                </h6>
                 </div>
                 <div class="col-xl-4">
                     <center>
                         <img id="marianspic" src="imagenes/monkey%20(1).png" alt="Marian"/>
                     </center>
                     <h4>Marian</h4>
-                        <p>Dirección de producto</p>
+                        <h5>Dirección de producto</h5>
                         <p>Gracias a sus años de experiencia como agente de viajes es experta en muchísimos destinos. Es una viajera todoterreno, disfrutará tanto en una ruta mochilera conociendo street-foods asiáticos como en un crucero a todo lujo por el Atlántico. Su lugar favorito es el sur de Irlanda y su destino soñado es Japón.
                         </p>
                     </div>
                 <div class="col-xl-4">
                     <center>
-                        <img id="lauraspic"src="imagenes/monkey%20(2)3.png" alt="Laura"/>
+                        <img id="lauraspic"src="imagenes/monkey(2)3.png" alt="Laura"/>
                     </center>
                     <h4>Laura</h4>
-                        <p>Dirección de tecnología</p>
+                        <h5>Dirección de tecnología</h5>
                         <p>Nuestra experta en comunicación audiovisual y front-end contrasta su trabajo entre monitores y nuevas tecnologías con su pasión por la naturaleza. Para ella no hay mejor opción que perderse por los bosques y las playas de Galicia. Sueña con ir a Noruega, dormir en el hielo y ver la aurora boreal.
                         </p>
                     </div>
@@ -48,7 +49,7 @@
                         <img id="noemispic"src="imagenes/monkey3.png" alt="Noemí"/>
                     </center>
                     <h4>Noemí</h4>
-                        <p>Dirección de diseño y UX</p>
+                        <h5>Dirección de diseño y UX</h5>
                         <p>En otra vida fue sommelier de té y eso se refleja en su gusto delicado y armonioso. Sus estudios de Biología le permiten llevar el diseño a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
                         </p>      
             </div>
