@@ -39,7 +39,7 @@
                     <div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-7 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 self-center">
                         <form  class="needs-validation" novalidate name="fregistro"
                               id="formregistro" 
-                              action="revisacorreoregistro.html" 
+                              action="" 
                               method="post"
                               autocomplete="off">
                             <div class="form-group">
@@ -119,5 +119,36 @@
                 <!--/Lado derecho-->
             </div>
         </div>
+    <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+        }, false);
+        })();
+        
+        
+        var password, password2;
+        password = document.getElementById('pass');
+        password2 = document.getElementById('repass');
+        password.onchange = password2.onkeyup = passwordMatch;
+        function passwordMatch() {
+            if(password.value !== password2.value)
+                password2.setCustomValidity('Las contraseñas no coinciden.');
+            else
+                password2.setCustomValidity('');
+        }
+</script>
     </body>
 </html>
