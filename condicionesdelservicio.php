@@ -33,7 +33,7 @@
                 <div class="card-header" id="headingOne">
                     <h4 class="mb-0"><button class="btn btn-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">1. Su relación con Bananatube</button></h4>
                 </div>
-                <div id="collapseOne" class="collapse show" data-parent="contenido" aria-labelledby="headingOne">
+                <div id="collapseOne" class="collapse" data-parent="contenido" aria-labelledby="headingOne">
                 <div class="card-body">
                 <p>1.1 Su utilización del sitio web de BananaTube (el "Sitio Web") y de todos los productos, canales, software, alimentación de datos y servicios de BananaTube, incluyendo el reproductor de video de BananaTube incorporado (el "Reproductor de Video de BananaTube") que BananaTube le facilite en, desde o a través del Sitio Web (conjuntamente, el "Servicio") estará sujeto a las condiciones de un acuerdo legal entre Ud. y BananaTube. "BananaTube" significa BananaTube LLC, una sociedad con domicilio social en Calle Marqués de Ahumada, 7, Madrid, España.</p>
 

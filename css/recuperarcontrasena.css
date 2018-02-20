@@ -43,6 +43,9 @@ body{
 #formulario{
     margin-top: 50px;
 }
+.form-group label{
+    margin-right: 180px;
+}
 /*Enlaces*/
 #volver{
     margin-top: 80px;

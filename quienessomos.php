@@ -23,7 +23,7 @@
                 <p id="descripcion">En Monkey Business somos unas apasionadas de los viajes y gracias a ello hemos reunido las funcionalidades de tus plataformas preferidas en una sola página. Porque queremos crear una espacio único para personas curiosas, con ilusión por viajar y ganas de compartir. 
                 </p>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-6">
                     <center>
                         <img id="marianspic" src="imagenes/monkey%20(1).png" alt="Marian"/>
                     </center>
@@ -32,7 +32,7 @@
                         <p>Gracias a sus años de experiencia como agente de viajes es experta en muchísimos destinos. Es una viajera todoterreno, disfrutará tanto en una ruta mochilera conociendo street-foods asiáticos como en un crucero a todo lujo por el Atlántico. Su lugar favorito es el sur de Irlanda y su destino soñado es Japón.
                         </p>
                     </div>
-                <div class="col-xl-4">
+                <div class="col-xl-6">
                     <center>
                         <img id="lauraspic"src="imagenes/monkey(2)3.png" alt="Laura"/>
                     </center>
@@ -41,15 +41,26 @@
                         <p>Nuestra experta en comunicación audiovisual y front-end contrasta su trabajo entre monitores y nuevas tecnologías con su pasión por la naturaleza. Para ella no hay mejor opción que perderse por los bosques y las playas de Galicia. Sueña con ir a Noruega, dormir en el hielo y ver la aurora boreal.
                         </p>
                     </div>
-                <div class="col-xl-4">
+                    <div class="row">
+                     <div class="col-xl-6">
+                    <center>
+                        <img id="virginiaspic" src="imagenes/monkeyVir.png" alt="Virginia"/>
+                    </center>
+                    <h4>Virginia</h4>
+                        <h5>Dirección de diseño</h5>
+                        <p>La creatividad es su marca personal, dedica gran parte de su vida al diseño, la pintura, la música y la escritura. Estudió periodismo y comunicación audiovisual. El resto del tiempo lo dedica a viajar, vive entre Austria y España, adora Holanda y su próximo destino será Brasil. El continente asiático se incluye en su lista de deseos y pretende desmarcarlo muy pronto.
+                        </p>
+                    </div>
+                <div class="col-xl-6">
                     <center>
                         <img id="noemispic"src="imagenes/monkey3.png" alt="Noemí"/>
                     </center>
                     <h4>Noemí</h4>
-                        <h5>Dirección de diseño y UX</h5>
-                        <p>En otra vida fue sommelier de té y eso se refleja en su gusto delicado y armonioso. Sus estudios de Biología le permiten llevar el diseño a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
+                        <h5>Dirección de UX</h5>
+                        <p>En otra vida fue sommelier de té y eso se refleja en su capacidad de distinguir los matices y encontrar la armonía en cada detalle. Sus estudios de Biología le permiten llevar la experiencia de usuario a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
                         </p>      
             </div>
+             </div>  
                  </div>
         </section>  
     <section class="row" id="derechos">

@@ -5,11 +5,13 @@
     <meta charset="utf-8" />
     <title>Registro</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/registro.css"/>
     <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/additional-methods.js"></script>
+    <script src="js/messages_es.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/vindicate.js"></script>
     <script src="js/registro.js"></script>
 </head>
 <body>
@@ -35,9 +37,9 @@
                 </div>
                 <div class="row">
                     <div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-7 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 self-center">
-                        <form name="fregistro"
+                        <form  class="needs-validation" novalidate name="fregistro"
                               id="formregistro" 
-                              action="revisacorreoregistro.html" 
+                              action="" 
                               method="post"
                               autocomplete="off">
                             <div class="form-group">
@@ -49,6 +51,9 @@
                                    value="" 
                                    required
                                    class="form-control"/>
+                                  <div class="invalid-feedback">
+                                    Nombre de usuario no válido
+                                  </div>
                             </div>
                             <div class="form-group">
                                 <label for="email">Correo electrónico</label>
@@ -61,6 +66,9 @@
                                        minlength="7" 
                                        maxlength="50"
                                        class="form-control">
+                                  <div class="invalid-feedback text-left">
+                                    Introduce una dirección email válida
+                                  </div>
                             </div>
                             <div class="form-group">
                                 <label for="password">Contraseña</label>
@@ -71,6 +79,9 @@
                                        value="" 
                                        required
                                        class="form-control"/>
+                                  <div class="invalid-feedback text-left">
+                                   La contraseña debe contener al menos un número
+                                  </div>
                             </div>
                             <div class="form-group">
                                 <label for="repass">Repetir contraseña</label>
@@ -81,6 +92,9 @@
                                        value="" 
                                        required
                                        class="form-control"/>
+                                  <div class="invalid-feedback text-left">
+                                    La contraseña no coincide
+                                  </div>
                             </div>
                             <div id="check" class="form-check">
                                 <input type="checkbox" 
@@ -105,5 +119,36 @@
                 <!--/Lado derecho-->
             </div>
         </div>
+    <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+        }, false);
+        })();
+        
+        
+        var password, password2;
+        password = document.getElementById('pass');
+        password2 = document.getElementById('repass');
+        password.onchange = password2.onkeyup = passwordMatch;
+        function passwordMatch() {
+            if(password.value !== password2.value)
+                password2.setCustomValidity('Las contraseñas no coinciden.');
+            else
+                password2.setCustomValidity('');
+        }
+</script>
     </body>
 </html>

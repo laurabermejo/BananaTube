@@ -1,42 +1,26 @@
-/*fuentes*/
-@font-face{
-    font-family:"Raleway";
-    src: url("../fonts/raleway2.woff2");
-}
-
-/*formato general del footer*/
-
+/* footer*/
 footer{
-    background-color:#F2F2F2;
-    overflow:hidden;
-    font-family: "Raleway", arial, sans-serif;
-    position:absolute;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-right: 15px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
 }
 
-.float-izda{
-    float:left;
-}
-
-.float-dcha{
-    float:right;
-}
-
-li{
+footer li{
     list-style-type:none;
 }
 
-a{
+footer a{
     color: #1F5941;
     text-decoration: none;
+    padding: 0 auto;
 }
-
-a:hover{
+footer a:hover{
     color:#3EAC7E;
-}
-
-figcaption{
-    color:#1F5941;
-    text-align: center;
+    text-decoration: none;
 }
 /*responsive*/
 @media screen and (max-width:778px){
@@ -50,5 +34,4 @@ figcaption{
         font-size: 10px;
         height: 100px;
     }
-
 }

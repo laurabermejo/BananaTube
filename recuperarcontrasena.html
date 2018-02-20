@@ -5,11 +5,10 @@
     <meta charset="utf-8" />
     <title>Recuperar Contraseña</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/recuperarcontrasena.css"/>
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/vindicate.js"></script>
     <script src="js/recuperarcontrasena.js"></script>
 </head>
 
@@ -38,10 +37,12 @@
                     <h5 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">Introduce tu dirección de correo electrónico y te enviaremos un enlace para recuperar tu contraseña</h5>
                 </div>
                 <div class="row">
-                    <div id="formulario" class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-7 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 self-center">
+                    <div id="formulario" class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-7 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3 text-center">
                         <form name="frcontra" 
-                              id="formrecuperar"           action="revisarcorreocontrasena.html" method="post">
-                            <div class="form-group">
+                              id="formrecuperar"           
+                              action="" method="post" 
+                              class="needs-validation" novalidate>
+                            <div class="form-group" >
                                 <label for="email">Correo electrónico</label>
                                 <br>
                                 <input type="email" 
@@ -50,6 +51,10 @@
                                        value="" 
                                        required 
                                        class="form-control"/>
+                                
+                                  <div class="invalid-feedback text-left">
+                                    Introduce una dirección email válida
+                                  </div>
                             </div>
                             <br>
                             <div class="input-group-btn text-center">
@@ -67,5 +72,6 @@
             <!--/Lado derecho-->
         </div>
     </div>
+
 </body>
 </html>
