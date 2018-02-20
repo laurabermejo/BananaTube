@@ -1,18 +1,4 @@
-function validar(){
-    var formularios=document.getElementByClassName("needs-validation");
-    var validacion= Array.protoype.filter.call(formularios, function(form){
-        form.addEventListener("submit", function(event){
-            if (form.checkValidity()===false){
-                event.preventDefault();
-                event.stopPropagation();
-            }else{
-            form.classList.add("was-validated");
-            }
-        }, false);
-    });
-}
-
-function validar(){
+(function() {
   'use strict';
   window.addEventListener('load', function() {
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -28,4 +14,4 @@ function validar(){
       }, false);
     });
   }, false);
-};
+})();
