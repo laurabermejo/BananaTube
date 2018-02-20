@@ -144,7 +144,9 @@ header{
     }
 }
 
-
+.pulsado{
+    display:none;
+}
 /* footer*/
 footer{
     padding-top: 20px;
