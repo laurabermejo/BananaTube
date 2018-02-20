@@ -14,21 +14,21 @@
         <header class="row"><?php include "includes/inheader.html";?>   </header>
             <section id="portada">
                 <div id="foto">
-                    <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" width="150px" class="col-xl-2 offset-xl-5"/>
+                    <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" class="col-xl-2 offset-xl-5 col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-3 offset-sm-5 col-4 offset-4"/>
                 </div>
             </section>
             <section id="info">
                 <div class="row">
-                    <h3 class=" col-xl-5 offset-xl-4">BIANCA COCOR</h3>
+                    <h3 class="col-xl-5 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-7 offset-sm-3 col-5 offset-3">BIANCA COCOR</h3>
                 </div>
                 <div class="row">
-                    <button class="col-xl-2  offset-xl-4 text-center" id="follow">Seguir</button>
-                    <button class="col-xl-2 text-center">Enviar mensaje</button>
+                    <button class="col-xl-2 offset-xl-4 col-lg-2 offset-lg-4 col-md-2 offset-md-4 col-sm-2 offset-sm-4 col-3 offset-3 text-center" id="follow">Seguir</button>
+                    <button class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 text-center">Mensaje</button>
                 </div>
-                <div class="row">
-                    <h2 class="col-xl-2 offset-xl-3 text-right">20 VIDEOS</h2>
-                    <h2 class="col-xl-2 text-right">5 DESTINOS</h2>
-                    <h2 class="col-xl-2 text-right">208     SEGUIDORES</h2>
+                <div class="row" id="datos">
+                    <h2 class="col-xl-2 offset-xl-3 col-lg-2 offset-lg-3 col-md-2 offset-md-2 col-sm-3 offset-sm-1 col-12">20 VÍDEOS SUBIDOS</h2>
+                    <h2 class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">5 DESTINOS</h2>
+                    <h2 class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-12">208     SEGUIDORES</h2>
                 </div>
             </section>
             <section id="contenido" class="row">
@@ -44,7 +44,7 @@
                     <p>Redes sociales</p>
                 </div>
                 <div class="col-xl-8">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                       <h4>Vídeos subidos</h4>
                     </div>
                 </div>

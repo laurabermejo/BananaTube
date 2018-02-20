@@ -60,7 +60,7 @@ header{
     text-align: justify;
     font-size: 2.3em;
     font-weight:bolder;
-    padding-left: 50px;
+    
 }
 #info button{
     height: 35px;
@@ -91,9 +91,58 @@ header{
     padding: 15px;
     height: 400px;
 }
+@media screen and (max-width:1300px){
+    #info h3{
+        text-align: center;
+        letter-spacing: 14px;
+        font-size: 2.1em
+    }
+    #foto{
+    padding-top: 200px;
+    }
+}
+@media screen and (max-width:900px){
+    #info button {
+        font-size: 12px;
+        text-align: center;
+    }
+    #datos h2{
+        font-size: 14px;
+        padding-right: 5px;
+        text-align: right;
+    }
+    #foto{
+    padding-top: 250px;
+    }
 
+}
+@media screen and (max-width:700px){
+    #info h3{
+        letter-spacing: 14px;
+        font-size: 2em;
+        text-align: center;
+    }
+    #portada{
+        height: 150px;
+    }
+    #foto{
+    padding-top: 100px;
+}
+}
 
-
+@media screen and (max-width:576px){
+    #datos h2{
+        text-align: center;
+        font-size: 14px;
+        padding-right: 5px;
+        border: none;
+        margin-top: 10px;
+    }
+    #info h3{
+        text-align: center;
+        padding-left: 50px;
+    }
+}
 
 
 /* footer*/
