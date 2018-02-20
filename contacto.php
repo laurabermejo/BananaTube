@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/contacto.css" media="all" />
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/vindicate.js"></script>
     <script src="js/contacto.js"></script>
 </head>
 
@@ -23,29 +21,39 @@
         </section>
         <div class="container-fluid margin">
             <section class="row" id="contenido">
-                <div class="col-xl-4 offset-xl-3 col-lg-4 offset-lg-3 col-md-4 offset-md-3 col-sm-6 offset-sm-3 col-7 offset-3 form-group">
-                    <form name="miformulario" id="formcontacto" action="" method="post" class="row">
+                <div class="col-xl-4 offset-xl-3 col-lg-4 offset-lg-3 col-md-5 offset-md-2 col-sm-6 offset-sm-3 col-7 offset-3 form-group">
+                    <form name="miformulario" id="formcontacto" action="" method="post" class="needs-validation row" novalidate>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="nombre">NOMBRE Y APELLIDOS/EMPRESA/ORGANIZACIÓN:</label>
                             <br/>
-                            <input type="text" name="nombre" id="nombre" value="" autocomplete="off" class="form-control" />
+                            <input type="text" name="nombre" id="nombre" value="" autocomplete="off" required minlength=3 class="form-control" />
+                          
+                              <div class="invalid-feedback">
+                               <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un nombre válido.
+                              </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="email">CORREO ELECTRÓNICO:</label>
                             <br/>
-                            <input type="email" name="email" id="email" value="" autocomplete="off" class="form-control" />
+                            <input type="email" name="email" id="email" value="" autocomplete="off" required class="form-control" />
+                              <div class="invalid-feedback">
+                               <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un correo electrónico válido.
+                              </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="mensaje">MENSAJE:</label>
                             <br/>
-                            <textarea rows="5" cols="4" name="mensaje" id="mensaje" value="" autocomplete="off" class="form-control"></textarea>
+                            <textarea rows="5" cols="4" name="mensaje" id="mensaje" value="" required autocomplete="off" class="form-control" maxlength="1000"></textarea>
+                              <div class="invalid-feedback">
+                               <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un comentario.
+                              </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <button class="btn btn-light" type="submit" name="button" value="">ENVIAR</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-3 offset-md-1 col-sm-5 offset-sm-3 col-7 offset-3" id="derecha">
+                <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-1 col-sm-5 offset-sm-3 col-8 offset-3" id="derecha">
                     <div class="row">
                         <div class="col-xl-12">
                         <h5>DIRECCIÓN</h5>
@@ -83,7 +91,7 @@
                         <img src="imagenes/socialmedia/google-plus.png"
                              alt="Google+"/></a>
                             <a href="http://www.instagram.com/">
-                        <img src="imagenes/socialmedia/instagram.png"
+                          <img src="imagenes/socialmedia/instagram.png"
                              alt="Instagram"/></a>
                             <a href="http://www.youtube.com/">
                         <img src="imagenes/socialmedia/youtube.png"
@@ -96,6 +104,39 @@
         </div>
     </div>
      <footer class="row"><?php include "includes/footer.html";?></footer>
+  <script>
+      // Disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+        }, false);
+        })();
+        
+        
+        var password, password2;
+        password = document.getElementById('pass');
+        password2 = document.getElementById('pass2');
+        password.onchange = password2.onkeyup = passwordMatch;
+        function passwordMatch() {
+            if(password.value !== password2.value)
+                password2.setCustomValidity('Las contraseñas no coinciden.');
+            else
+                password2.setCustomValidity('');
+        }
+    </script>
+
 </body>
 
 </html>
