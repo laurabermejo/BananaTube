@@ -57,6 +57,8 @@ header{
 #formindex{
     padding: 100px;
 }
+
+
 #buscador::placeholder{
     font-size: 0.8em;
 }

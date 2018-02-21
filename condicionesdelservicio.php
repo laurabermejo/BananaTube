@@ -21,7 +21,7 @@
             <?php include "includes/inheader.html";?>
     </header>
 
-    <div class="container">
+    <div class="container" role="navigation">
         <div id="volver" class="row text-right">
         <a href="index.php">Volver a inicio</a>
         </div>
@@ -305,7 +305,7 @@
             </div>
         </div>
     </div>
-    <footer class=row>
+    <footer role="contentinfo" class=row>
         <?php include "includes/footer.html";?>
     </footer>
 
