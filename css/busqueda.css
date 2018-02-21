@@ -43,7 +43,9 @@ body {
 .next{
     margin-top: 50px;
 }
-
+.next img{
+    vertical-align: middle;
+}
 
 
 
@@ -75,6 +77,25 @@ footer a:hover {
 }
 
 
+/*Media query*/
+@media (max-width:1300px){
+    .next img {
+        height: 100%
+    }
+}
+ 
+@media  (max-width:900px)
+    @media   (max-width:700px){
+#contenido        
+}
+
+@media   (max-width:576px)
+@media   (max-width:778px)
+@media   (max-width:640px){
+    .next img {
+        height: 40%
+    }
+}
 
 
 
