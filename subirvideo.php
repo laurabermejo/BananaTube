@@ -11,69 +11,78 @@
         <script src="js/subirvideo.js"></script>
     </head>
     <body>
-        <div class="container-fluid margin">
+        <div class="">
             <header class="row">
                 <?php include "includes/inheader.html";?>
             </header>
-            <div id="contenedor" class="row">
-                <section class="">
+            <section id="contenedor" class="container-fluid margin">
+                <div id="titular" class="row">
+                    <p>SUBE TU VÍDEO</p>
+                </div>
+                <div id="fsubirvid" class="row">
                     <form name="subirvideo"
                       id="formsubir"
                       action=""
                       method="post"
                       enctype="multipart/form-data">
-                        <div>
-                            <label for="archivo"></label>
-                            <input type="file"
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="archivo" >Selecciona tu vídeo</label>
+                                <input type="file"
                                name="archivo"
                                id="archivo"
                                value="video"
                                multiple="multiple"
-                               required/>
-                        </div>
-                        <div>
-                            <label for="miniatura"></label>
-                            <input type="file"
+                               required
+                                   class="form-control-file"/>
+                            </div>
+                            <div class="form-group col">
+                                <label for="miniatura">Elige una portada</label>
+                                <input type="file"
                                name="miniatura"
                                value="miniatura"
-                               required/>
+                               required
+                                   class="form-control-file"/>
+                            </div>
                         </div>
                         <div>
-                            <label for="nombrevid">Título</label>
+                            <label for="nombrevid" class="form-group">Título</label>
                             <input type="text"
                                name="nombrevid"
                                id="nombrevid"
                                value=""
                                maxlength="65"
                                placeholder="Nombre de tu vídeo"
-                               required/>
+                               required
+                                   class="form-control"/>
                         </div>
-                        <div>
-                            <label for="descvid">Descripción</label>
-                            <textarea name="descvid"
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="descvid" class="form-group">Descripción</label>
+                                <textarea name="descvid"
                               id="descvid"
                               rows="5"
                               columns="5"
                               maxlenght="350"
-                              placeholder="Describe tu vídeo"></textarea>
-                        </div>
-                        <div>
-                            <label for="tags">Etiquetas</label>
-                            <textarea name="tags"
+                              placeholder="Describe tu vídeo"
+                                      class="form-control"></textarea>
+                            </div>
+                            <div class="form-group col">
+                                <label for="tags" class="form-group">Etiquetas</label>
+                                <textarea name="tags"
                               id="tags"
                               rows="5"
                               columns="5"
-                              placeholder="Añade tags relacionados"></textarea>
+                              placeholder="Añade tags relacionados"
+                                      class="form-control"></textarea>
+                            </div>
                         </div>
-                        <div>
-                            <input type="submit"
-                           name="submit"
-                           id="submit"
-                           value="Subir vídeo"/>
+                        <div class="input-group-btn text-center">
+                            <button type="submit" class="btn btn-secondary">Sube tu vídeo</button>
                         </div>
                     </form>
-                </section>
-            </div>
+                </div>
+            </section>
             <footer class="row">
                 <?php include "includes/footer.html";?>
             </footer>
