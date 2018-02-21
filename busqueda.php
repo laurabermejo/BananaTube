@@ -41,7 +41,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                <div class="col-xl-3 next">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
             </div> 
@@ -68,7 +68,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                <div class="col-xl-3 next">
+                <div class="col-xl-3  col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
@@ -95,7 +95,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                    <div class="col-xl-3 next">
+                    <div class="col-xl-3  col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
