@@ -14,20 +14,20 @@
 
 <body>
     <div class="container-fluid">
-        <header class="row">
+        <header class="row" role="navigation">
             <?php include "includes/inheader.html";?>
         </header>
-        <section class="row" id="titulo">
+        <section class="row" id="titulo" role="banner">
             <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">CONTACTO</h1>
         </section>
-        <div class="container-fluid margin">
+        <div class="container-fluid margin" role="form">
             <section class="row" id="contenido">
                 <div class="col-xl-4 offset-xl-3 col-lg-4 offset-lg-3 col-md-5 offset-md-2 col-sm-6 offset-sm-3 col-7 offset-3 form-group">
                     <form name="miformulario" id="formcontacto" action="" method="post" class="needs-validation row" novalidate>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="nombre">NOMBRE Y APELLIDOS/EMPRESA/ORGANIZACIÓN:</label>
                             <br/>
-                            <input type="text" name="nombre" id="nombre" value="" autocomplete="off" required minlength=3 class="form-control" />
+                            <input type="text" name="nombre" id="nombre" value="" autocomplete="off" required aria-required="true" minlength=3 class="form-control" />
                           
                               <div class="invalid-feedback">
                                <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un nombre válido.
@@ -36,7 +36,7 @@
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="email">CORREO ELECTRÓNICO:</label>
                             <br/>
-                            <input type="email" name="email" id="email" value="" autocomplete="off" required class="form-control" />
+                            <input type="email" name="email" id="email" value="" autocomplete="off" required aria-required="true" class="form-control" />
                               <div class="invalid-feedback">
                                <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un correo electrónico válido.
                               </div>
@@ -44,7 +44,7 @@
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <label for="mensaje">MENSAJE:</label>
                             <br/>
-                            <textarea rows="5" cols="4" name="mensaje" id="mensaje" value="" required autocomplete="off" class="form-control" maxlength="1000"></textarea>
+                            <textarea rows="5" cols="4" name="mensaje" id="mensaje" value="" required aria-required="true" autocomplete="off" class="form-control" maxlength="1000"></textarea>
                               <div class="invalid-feedback">
                                <i class="fa fa-times" aria-hidden="true"></i>Por favor, escribe un comentario.
                               </div>
@@ -104,7 +104,7 @@
             </section>
         </div>
     </div>
-     <footer class="row"><?php include "includes/footer.html";?></footer>
+     <footer role="contentinfo" class="row"><?php include "includes/footer.html";?></footer>
   <script>
       // Disabling form submissions if there are invalid fields
     (function() {
