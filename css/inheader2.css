@@ -1,42 +1,41 @@
-@font-face {
-    font-family: Raleway;
-    src: url(raleway2.woff2);
+.container-fluid {
+    padding: 0px;
 }
-#formhead{
-    margin: 0 auto;
-    padding: 0 auto;
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
-    font-size: 12px;
-    color: #454545; 
+
+#login a {
+    color: #1f5941;
+    text-decoration: none;
 }
-#formhead input{
-    font-size: 10px;
-    height: 30px;
-    margin-top: 20px;
-}
-#formhead button{
-    font-size: 9px;
-    height: 30px; 
-}
-#logincab{
-    margin-top: 5px;
-}
-#logincab a{
-    color:#1f5941;
-    padding-right: 5px;
-    border-right: 1px solid #1f5941;
-    text-decoration: none; 
-}
-#logincab a:hover{
+
+#login a:hover {
     color: #3EAC7E;
 }
 
-#boton{
-    margin-top: 15px;
-    border: none;
+#logo {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 50px;
+}
+@media screen and (min-width:577px) {
+    #formhead input {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #formhead button {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
 }
 
-
-
-
+@media screen and  (max-width: 576px) {
+    #formhead input{
+        font-size: 10px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    #formhead button{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
