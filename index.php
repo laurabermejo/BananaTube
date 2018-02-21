@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/index.css" media="all"/>
         <script src="js/jquery-3.3.1.slim.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
-        <script src=""></script>
+        <script src="js/index.js"></script>
      
     </head>
         <body>
