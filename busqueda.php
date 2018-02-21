@@ -24,7 +24,7 @@
                 <div class="row video">
                     <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
+                            <a href="reproduccion.php"><video id="video1" src="videos/roraima.mp4" width="100%"></video></a>
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                     </div>
