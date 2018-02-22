@@ -8,6 +8,11 @@
         src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
              url(../fonts/ReenieBeanie.ttf) format("truetype");
 }
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
+
 body{
     margin: 0;
     padding: 0;

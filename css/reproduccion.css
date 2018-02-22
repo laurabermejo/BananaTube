@@ -11,6 +11,11 @@
 }
 /*Fin fuentes*/
 
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
+
 body{
     margin: 0;
     padding: 0;

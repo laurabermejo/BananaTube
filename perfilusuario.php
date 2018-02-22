@@ -15,7 +15,7 @@
 
 <body>
     <div class="container-fluid margin">
-        <header>
+        <header class="row">
             <?php include "includes/inheader2.html";?> </header>
         <section id="portada">
             <div id="foto">

@@ -15,7 +15,7 @@
 
 <body>
     <div class="container-fluid">
-        <header>
+        <header class="row">
             <?php include "includes/inheader2.html";?>
         </header>
         <section class="row" id="titulo" role="banner">

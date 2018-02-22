@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="row">
             <?php include "includes/inheader2.html";?>
     </header>
         <div class="container">

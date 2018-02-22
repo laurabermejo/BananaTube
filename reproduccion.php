@@ -15,7 +15,7 @@
 </head>
 <body>
     <!--Encabezado-->
-        <header><?php include "includes/inheader2.html";?></header>
+        <header class="row"><?php include "includes/inheader2.html";?></header>
     <!--Fin encabezado-->
     <!--Contenido principal-->
     <section id="contenido" class="container">

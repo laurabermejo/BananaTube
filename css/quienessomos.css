@@ -9,6 +9,11 @@
              url(../fonts/ReenieBeanie.ttf) format("truetype");
 }
 
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
+
 body{
     margin: 0;
     padding: 0;

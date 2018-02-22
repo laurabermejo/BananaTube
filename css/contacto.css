@@ -8,6 +8,10 @@
     font-family:"ReenieBeanie";
     src: url("../fonts/ReenieBeanie.woff2");
 }
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
 
 body{
     margin: 0;
