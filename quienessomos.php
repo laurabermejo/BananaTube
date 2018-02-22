@@ -5,13 +5,14 @@
         <title>Quiénes somos</title>
          <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/quienessomos.css"/>
+    <link rel="stylesheet" href="css/inheader2.css"/>
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src=""></script>
     </head>
     <body>
        <!---->
-      <header class="row"><?php include "includes/inheader.html";?></header>
+      <header class="row"><?php include "includes/inheader2.html";?></header>
          <section class="container-fluid">
                 <div id="titular" class="row">
                     <p id="titulo" class="text-center col-xl-12  col-lg-12"> QUIÉNES SOMOS</p>
