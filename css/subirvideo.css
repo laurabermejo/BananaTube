@@ -20,7 +20,7 @@ body{
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
-<<<<<<< HEAD
+
 /* Contenido */
 body{
     font-family:"Raleway";
@@ -35,69 +35,11 @@ body{
 
 #titular{
     margin-top: 30px;
-=======
 
-#titular, #fsubivid{
-    margin-top: 30px;
-    margin-bottom:30px;
-    background-color:#F2F2F2;
->>>>>>> b6981dcbbc86575e8ac4a4030fbb9974ee3d7ebb
-}
-
-#titular p{
-    height: 40px;
-    letter-spacing: 20px;
-    margin: 35px;
-    margin-bottom: 20px;
-    font-size: 2.3em;
-    font-weight: bolder;
-}
-
-<<<<<<< HEAD
-#titular, #fsubirvid{
-    background-color: rgba(255, 255, 255,0.5);
-}
-
-#fsubirvid{
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-=======
-/*#titular, #fsubirvid{
-    background-color: rgba(255, 255, 255,0.5);
-}*/
-
-/*#fsubirvid{
-    background-color:#F2F2F2;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}*/
->>>>>>> b6981dcbbc86575e8ac4a4030fbb9974ee3d7ebb
 
 /* footer*/
-footer{
-    padding-top: 20px;
-    margin: 0 auto;
-    padding-right: 15px;
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
-    font-size: 14px;
-    color: #454545; 
-}
 
-footer li{
-    list-style-type:none;
-}
 
-footer a{
-    color: #1F5941;
-    text-decoration: none;
-    padding: 0 auto;
-}
-footer a:hover{
-    color:#3EAC7E;
-    text-decoration: none;
-}
 /*responsive*/
 @media screen and (max-width:778px){
     footer{
