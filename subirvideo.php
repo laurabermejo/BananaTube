@@ -6,20 +6,21 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="css/subirvideo.css"/>
+        <link rel="stylesheet" href="css/footer.css"/>
         <link rel="stylesheet" href="css/inheader2.css"/>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/subirvideo.js"></script>
     </head>
     <body>
-
-
+        <div class="container-fluid">
             <header class="row">
                 <?php include "includes/inheader2.html";?>
             </header>
-            <section id="contenedor" class="row">
-                <div id="titular" class="row">
-                    <p>SUBE TU VÍDEO</p>
+            <section>
+                <div id="titular">
+                    <p class="row" id="titulo">SUBE TU VÍDEO</p>
+                    <p class="row" id="subtitulo">¡Enséñale tu viaje al mundo!</p> 
                 </div>
                 <div id="fsubirvid" class="row">
                     <form name="subirvideo"
@@ -88,5 +89,6 @@
             <footer class="row">
                 <?php include "includes/footer.html";?>
             </footer>
+        </div>
     </body>
 </html>

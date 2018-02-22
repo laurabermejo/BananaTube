@@ -15,29 +15,36 @@ header{
 
 /* Contenido */
 body{
-    margin: 0;
-    padding: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
 
-/* Contenido */
-body{
-    font-family:"Raleway";
-}
-#contenedor{
-    background-image: url(../imagenes/fondosubirvideo.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
+#titular #titulo{
+    height:40px;
+    letter-spacing: 20px;
+    margin:0px;
+    margin-bottom:20px;
+    font-size: 2.3em;
+    font-weight:bolder;
 }
 
-#titular{
-    margin-top: 30px;
+#subtitulo{
+  font-family:"ReenieBeanie";
+    font-size: 20pt;
+    padding-bottom: 10px;
+    margin: 0px;
+}
 
+#fsubirvid, #titular{
+    background-color: #F2F2F2;
+    margin-top:30px;
+    margin-bottom:30px;
+}
 
-/* footer*/
+#fsubirvid{
+    margin:0px;
+}
+
 
 
 /*responsive*/
