@@ -12,7 +12,7 @@
     </head>
     <body>
        <!---->
-      <header class="row"><?php include "includes/inheader2.html";?></header>
+      <header><?php include "includes/inheader2.html";?></header>
          <section class="container-fluid">
                 <div id="titular" class="row">
                     <p id="titulo" class="text-center col-xl-12  col-lg-12"> QUIÉNES SOMOS</p>

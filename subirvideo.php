@@ -6,14 +6,15 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="css/subirvideo.css"/>
+        <link rel="stylesheet" href="css/inheader2.css"/>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/subirvideo.js"></script>
     </head>
     <body>
         <div class="">
-            <header class="row">
-                <?php include "includes/inheader.html";?>
+            <header>
+                <?php include "includes/inheader2.html";?>
             </header>
             <section id="contenedor" class="container-fluid margin">
                 <div id="titular" class="row">

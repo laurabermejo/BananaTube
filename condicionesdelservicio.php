@@ -21,7 +21,7 @@
 
 <body>
 
-    <header class="row">
+    <header>
             <?php include "includes/inheader2.html";?>
     </header>
 
