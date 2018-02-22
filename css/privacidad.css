@@ -15,30 +15,6 @@ body{
     font-family: Raleway,arial,sans-serif;
     font-size: 14px;
 }
-/*header*/
-header{
-    margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
-    font-size: 14px;
-    color: #454545; 
-}
-#login{
-    margin-top: 25px;
-}
-#login a{
-    color:#1f5941;
-    padding-right: 5px;
-    border-right: 1px solid #1f5941;
-    text-decoration: none; 
-}
-#login a:hover{
-    color: #3EAC7E;
-    text-decoration: none; 
-}
 
 /*desarrollo*/
 #volver a{

@@ -5,16 +5,16 @@
     <meta charset="utf-8" />
     <title>Política de privacidad</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel="stylesheet" href="css/privacidad.css" 
-          media="all" />
+        <link rel="stylesheet" href="css/privacidad.css" media="all" />
+        <link rel="stylesheet" href="css/inheader2.css" media="all" />
         <script src="js/jquery-3.3.1.slim.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
         <script src=""></script>
 </head>
 
 <body>
-    <header class="row">
-            <?php include "includes/inheader.html";?>
+    <header>
+            <?php include "includes/inheader2.html";?>
     </header>
         <div class="container">
         <div id="volver" class="row text-right">

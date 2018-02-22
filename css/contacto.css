@@ -8,7 +8,7 @@
     font-family:"ReenieBeanie";
     src: url("../fonts/ReenieBeanie.woff2");
 }
-/*formato general del footer*/
+
 body{
     margin: 0;
     padding: 0;
@@ -21,28 +21,6 @@ body{
     color: #454545;
 }
 
-header{
-    margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
-    font-size: 14px;
-    color: #454545; 
-}
-#login{
-    margin-top: 25px;
-}
-#login a{
-    color:#1f5941;
-    padding-right: 5px;
-    border-right: 1px solid #1f5941;
-    text-decoration: none; 
-}
-#logincab a:hover{
-    color: #3EAC7E;
-}
 
 /*contenido*/
 #titulo{

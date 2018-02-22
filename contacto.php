@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/contacto.css" media="all" />
+    <link rel="stylesheet" href="css/inheader2.css" media="all" />
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/contacto.js"></script>
@@ -14,8 +15,8 @@
 
 <body>
     <div class="container-fluid">
-        <header class="row" role="navigation">
-            <?php include "includes/inheader.html";?>
+        <header>
+            <?php include "includes/inheader2.html";?>
         </header>
         <section class="row" id="titulo" role="banner">
             <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">CONTACTO</h1>

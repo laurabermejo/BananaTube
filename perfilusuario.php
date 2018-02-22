@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/perfilusuario.css" media="all" />
+    <link rel="stylesheet" href="css/inheader2.css" media="all" />
     <script src="js/jquery-3.3.1.slim.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/perfilusuario.js"></script>
@@ -14,8 +15,8 @@
 
 <body>
     <div class="container-fluid margin">
-        <header class="row">
-            <?php include "includes/inheader.html";?> </header>
+        <header>
+            <?php include "includes/inheader2.html";?> </header>
         <section id="portada">
             <div id="foto">
                 <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" class="col-xl-2 offset-xl-5 col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-3 offset-sm-5 col-4 offset-4" />

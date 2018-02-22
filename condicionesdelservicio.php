@@ -7,6 +7,10 @@
          <link rel="stylesheet" href="css/bootstrap.css"/>
         <link rel="stylesheet" href="css/condicionesdelservicio.css" 
           media="all" />
+    <link rel="stylesheet" href="css/inheader2.css" 
+          media="all" />
+    <link rel="stylesheet" href="css/footer.css" 
+          media="all" />
         <script src="js/jquery-3.3.1.slim.js"></script>
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/jquery.validate.js"></script>
@@ -17,8 +21,8 @@
 
 <body>
 
-    <header class="row">
-            <?php include "includes/inheader.html";?>
+    <header>
+            <?php include "includes/inheader2.html";?>
     </header>
 
     <div class="container" role="navigation">

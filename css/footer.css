@@ -27,11 +27,17 @@ footer a:hover{
     footer{
         font-size: 12px;
     }
+    footer img{
+        width: 25px;
+    }
     
 }
 @media screen and (max-width:640px){
     footer{
         font-size: 10px;
         height: 100px;
+    }
+    footer img{
+        width: 20px;
     }
 }
