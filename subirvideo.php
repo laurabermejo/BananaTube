@@ -12,11 +12,11 @@
         <script src="js/subirvideo.js"></script>
     </head>
     <body>
-        <div class="">
-            <header>
+        
+            <header class="row">
                 <?php include "includes/inheader2.html";?>
             </header>
-            <section id="contenedor" class="container-fluid margin">
+            <section id="contenedor" class="row">
                 <div id="titular" class="row">
                     <p>SUBE TU VÍDEO</p>
                 </div>

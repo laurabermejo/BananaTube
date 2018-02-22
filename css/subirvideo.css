@@ -8,26 +8,24 @@
         src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
              url(../fonts/ReenieBeanie.ttf) format("truetype");
 }
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
+
+/* Contenido */
+
 body{
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
-/* Contenido */
-body{
-    font-family:"Raleway";
-}
-#contenedor{
-    background-image: url(../imagenes/fondosubirvideo.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
 
-#titular{
+#titular, #fsubivid{
     margin-top: 30px;
+    margin-bottom:30px;
+    background-color:#F2F2F2;
 }
 
 #titular p{
@@ -39,14 +37,15 @@ body{
     font-weight: bolder;
 }
 
-#titular, #fsubirvid{
+/*#titular, #fsubirvid{
     background-color: rgba(255, 255, 255,0.5);
-}
+}*/
 
-#fsubirvid{
+/*#fsubirvid{
+    background-color:#F2F2F2;
     margin-bottom: 30px;
     margin-top: 30px;
-}
+}*/
 
 /* footer*/
 footer{
