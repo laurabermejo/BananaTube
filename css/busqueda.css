@@ -34,33 +34,24 @@ body {
     margin: 20px;
 }
 #contenido h3{
-        font-family: "ReenieBeanie";
+    font-family: "ReenieBeanie";
 }
 .video{
     margin-left: 80px;
 }
 
-/* Ampliar imagen*/
-.img-zoom-container {
-  position: relative;
+.video-centro video{
+    position: relative;
+    z-index: -1;
+    
 }
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  width: 100px;
-  height: 100px;
+.video-centro:hover {
+    background: url(../imagenes/video-play.png) no-repeat;
+    background-size: 30%;
+    background-position: center;
+    z-index: 2;
 }
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  width: 300px;
-  height: 300px;
-}
-.next{
-    margin-top: 50px;
-}
-.next img{
-    vertical-align: middle;
-}
+
 
 
 
@@ -88,6 +79,7 @@ footer a {
 footer a:hover {
     color: #3EAC7E;
 }
+
 
 
 /*Media query*/
