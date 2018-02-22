@@ -8,12 +8,19 @@
         src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
              url(../fonts/ReenieBeanie.ttf) format("truetype");
 }
+/*Header*/
+header{
+    background-color: #F2F2F2;
+}
+
+/* Contenido */
 body{
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+<<<<<<< HEAD
 /* Contenido */
 body{
     font-family:"Raleway";
@@ -28,6 +35,13 @@ body{
 
 #titular{
     margin-top: 30px;
+=======
+
+#titular, #fsubivid{
+    margin-top: 30px;
+    margin-bottom:30px;
+    background-color:#F2F2F2;
+>>>>>>> b6981dcbbc86575e8ac4a4030fbb9974ee3d7ebb
 }
 
 #titular p{
@@ -39,6 +53,7 @@ body{
     font-weight: bolder;
 }
 
+<<<<<<< HEAD
 #titular, #fsubirvid{
     background-color: rgba(255, 255, 255,0.5);
 }
@@ -47,6 +62,17 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+=======
+/*#titular, #fsubirvid{
+    background-color: rgba(255, 255, 255,0.5);
+}*/
+
+/*#fsubirvid{
+    background-color:#F2F2F2;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}*/
+>>>>>>> b6981dcbbc86575e8ac4a4030fbb9974ee3d7ebb
 
 /* footer*/
 footer{
