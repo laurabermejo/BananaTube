@@ -22,26 +22,26 @@
             <div id="destino" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h3>DESTINO</h3>
                 <div class="row video">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-6">
                         <div class="video-centro">
                             <a href="reproduccion.php"><video id="video1" src="videos/roraima.mp4" width="100%"></video></a>
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                     </div>
                 
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-6">
                         <div class="video-centro">
                             <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-3">
                         <div class="video-centro">
                             <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
+                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
             </div> 
@@ -68,7 +68,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                <div class="col-xl-3  col-lg-3 col-md-3 col-sm-3 col-3 next">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
@@ -95,7 +95,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
-                    <div class="col-xl-3  col-lg-3 col-md-3 col-sm-3 col-3 next">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
@@ -122,6 +122,7 @@
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                 </div>
+                    <br>
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
