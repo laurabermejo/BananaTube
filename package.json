@@ -1,0 +1,19 @@
+{
+  "name": "bananatube",
+  "version": "1.0.0",
+  "description": "Demo de BananaTube - Ilusión por viajar 2018",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurabermejo/BananaTube.git"
+  },
+  "author": "Laura Bermejo <laura.ber.car@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/laurabermejo/BananaTube/issues"
+  },
+  "homepage": "https://github.com/laurabermejo/BananaTube#readme"
+}
