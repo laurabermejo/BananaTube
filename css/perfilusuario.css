@@ -33,12 +33,21 @@ body{
     height: 300px;
 }
 
+#foto img{
+    
+    
+}
+
+.next{
+    margin-top: 4%;
+}
+
 #foto{
     padding-top: 150px;
 }
 #info h3{
     letter-spacing: 16px;
-    text-align: justify;
+    text-align: center;
     font-size: 2.3em;
     font-weight:bolder;
     
@@ -66,10 +75,10 @@ body{
     border-right: 1px solid #454545;
 }
 
-#contenido, #mapa{
-    margin: 40px;
+.gris{
+    margin: 10px;
     background-color: #F2F2F2;
-    padding: 15px;
+    padding: 40px;
     height: 400px;
 }
 @media screen and (max-width:1300px){
@@ -92,8 +101,12 @@ body{
         padding-right: 5px;
         text-align: right;
     }
+     #portada{
+        height: 150px;
+    }
     #foto{
-    padding-top: 250px;
+    padding: 15%;
+        margin-left: 6%
     }
 
 }
@@ -103,15 +116,13 @@ body{
         font-size: 2em;
         text-align: center;
     }
-    #portada{
-        height: 150px;
-    }
+   
     #foto{
-    padding-top: 100px;
-}
+    padding: 15%;
+   }
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:560px){
     #datos h2{
         text-align: center;
         font-size: 14px;
@@ -123,6 +134,9 @@ body{
         text-align: center;
         padding-left: 50px;
     }
+     #foto{
+    padding: 15%;
+   }
 }
 
 .pulsado{
