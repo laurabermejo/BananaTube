@@ -16,32 +16,33 @@
         <header class="row">
             <?php include "includes/inheader2.html";?> </header>
                <section class="row" id="titulo">
-            <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">VENEZUELA</h1>
+            <p class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">VENEZUELA</p>
         </section>
         <section id="contenido" class="row">
             <div id="destino" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h3>DESTINO</h3>
                 <div class="row video">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-6">
+                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-9">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video id="video1" src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/vene1.jpg" width="100%"/></a>
+                            <p class="titulo">Archipiélago de Los Roques</p>
                         </div>
                     </div>
                 
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-6">
+                    <div id="video-wrapper" class="d-none d-sm-block col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/vene2.png" width="100%"/></a>
+                            <br>    
+                            <p class="titulo">Visita al puerto</p>
                         </div>
-                </div>
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-3">
+                    </div>
+                    <div id="video-wrapper" class="d-none d-md-block col-xl-3 col-lg-3 col-md-3">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/vene3.png" width="100%"/></a>
+                            <p class="titulo">Día mundial del turismo en Venezuela</p>
                         </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2 col-3 next">
+                    </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
             </div> 
@@ -49,26 +50,26 @@
             <div id="gastronomía" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
             <h3>GASTRONOMÍA</h3>
             <div class="row video">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-9">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/gas1.jpg" width="100%"/></a>
+                            <p class="titulo">Descubriendo sabores tradicionales</p>
                         </div>
                     </div>
                 
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="d-none d-sm-block col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/gas2.jpg" width="100%"/></a>
+                            <p class="titulo">Sabores de venezuela</p>
                         </div>
-                </div>
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    </div>
+                    <div id="video-wrapper" class="d-none d-md-block col-xl-3 col-lg-3 col-md-3">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/gas3.jpg" width="100%"/></a>
+                            <p class="titulo">Las chuches de la naturaleza</p>
                         </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
@@ -76,26 +77,26 @@
             <div id="cultura" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                 <h3>CULTURA</h3>
                 <div class="row video">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-9">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/cul1.jpg" width="100%"/></a>
+                            <p class="titulo">Espectáculos inéditos</p>
                         </div>
                     </div>
                 
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="d-none d-sm-block col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                           <a href="reproduccion.php"><img src="imagenes/miniaturas/cul2.jpg" width="100%"/></a>
+                            <p class="titulo">Un día en Venezuela</p>
                         </div>
-                </div>
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    </div>
+                    <div id="video-wrapper" class="d-none d-md-block col-xl-3 col-lg-3 col-md-3">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/cul3.jpg" width="100%"/></a>
+                            <p class="titulo">Haciendo política</p>
                         </div>
-                </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
@@ -103,27 +104,27 @@
             <div id="aventura" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <h3>AVENTURA</h3>
                 <div class="row video">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-9">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/ave1.jpg" width="100%"/></a>
+                            <p class="titulo">Un paseo por el río Caura</p>
                         </div>
                     </div>
                 
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div id="video-wrapper" class="d-none d-sm-block col-xl-3 col-lg-3 col-md-3 col-sm-4">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/ave2.jpg" width="100%"/></a>
+                            <p class="titulo">Nuevas experiencias</p>
                         </div>
-                </div>
-                <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    </div>
+                    <div id="video-wrapper" class="d-none d-md-block col-xl-3 col-lg-3 col-md-3">
                         <div class="video-centro">
-                            <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
-                            <p class="pulsado">Viaje a Roraima</p>
+                            <a href="reproduccion.php"><img src="imagenes/miniaturas/ave3.jpg" width="100%"/></a>
+                            <p class="titulo">Un paseo por Roraima</p>
                         </div>
-                </div>
+                    </div>
                     <br>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 next">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col-3 next">
                     <img  src="imagenes/next.png"/>
                 </div>
                 </div>
