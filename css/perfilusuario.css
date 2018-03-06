@@ -33,17 +33,14 @@ body{
     height: 300px;
 }
 
-#foto img{
-    
-    
-}
-
 .next{
     margin-top: 4%;
+    align-content: center;
 }
 
-#foto{
-    padding-top: 150px;
+#foto img{
+   width: 220px;
+   position: absolute;
 }
 #info h3{
     letter-spacing: 16px;
@@ -81,17 +78,24 @@ body{
     padding: 40px;
     height: 400px;
 }
-@media screen and (max-width:1300px){
+
+/*MEDIA QUERIES*/
+    
+        
+@media screen and (max-width:2000px){
     #info h3{
         text-align: center;
         letter-spacing: 14px;
         font-size: 2.1em
     }
     #foto{
-    padding-top: 200px;
+      padding-top: 180px;
+      padding-left: 4%;
+        
     }
 }
-@media screen and (max-width:900px){
+
+@media screen and (max-width:990px){
     #info button {
         font-size: 12px;
         text-align: center;
@@ -101,28 +105,40 @@ body{
         padding-right: 5px;
         text-align: right;
     }
-     #portada{
-        height: 150px;
+    #portada{
+        height: 180px;
     }
     #foto{
-    padding: 15%;
-        margin-left: 6%
+        padding-top: 100px;
     }
-
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:780px){
     #info h3{
         letter-spacing: 14px;
         font-size: 2em;
         text-align: center;
     }
    
-    #foto{
-    padding: 15%;
+   #foto{
+    padding-top: 90px;
+    padding-left: 15%;
    }
+    #foto img{
+     width: 180px; 
+   }
+     .video-wrapper{
+        max-height: 4px;
+    }
+    .next{
+      margin-top: 5%;
+      margin-left: 80%;
+   }
+    #video-der{
+        display: none;
+    }
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:576px){
     #datos h2{
         text-align: center;
         font-size: 14px;
@@ -132,10 +148,29 @@ body{
     }
     #info h3{
         text-align: center;
-        padding-left: 50px;
+        padding-left: 5%;
     }
      #foto{
-    padding: 15%;
+       padding-top: 90px;
+         padding-left: 0px;
+   }
+     #foto img{
+       width: 190px;
+      
+   }
+    .video-wrapper{
+        max-height: 90px;
+    }
+    #video-centro{
+        display: none;
+    }
+    #video-der{
+        display: none;
+    }
+    .next{
+      margin-top: 20%;
+      margin-left: 35%;
+      transform: rotate(0.25turn)
    }
 }
 

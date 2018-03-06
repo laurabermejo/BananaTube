@@ -19,7 +19,7 @@
             <?php include "includes/inheader2.html";?> </header>
         <section id="portada">
             <div id="foto">
-                <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" class="offset-xl-5 col-xl-2 offset-xl-5 offset-lg-5 col-lg-2 offset-lg-5 offset-md-4 col-md-3 col-sm-5 offset-sm-3 col-7 offset-2" />
+                <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" class="offset-xl-5 col-xl-2  offset-lg-5 col-lg-2 offset-md-4 col-md-4 col-sm-6 offset-sm-3 col-6 offset-3" />
             </div>
         </section>
         <section id="info">
@@ -55,28 +55,28 @@
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 gris">
                     <h4>Vídeos subidos</h4>
-                    <div class="row">
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
-                        <div class="video-centro">
+                  <div class="row">
+                    <div class="video-wrapper col-xl-3 col-lg-5 col-md-3 col-sm-5 col-10">
+                        <div class="video-izq">
                             <a href="reproduccion.php"><video src="videos/roraima.mp4" width="100%"></video></a>
                             <p class="pulsado">Viaje a Roraima</p>
                         </div>
                     </div>
-                    <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
-                        <div class="video-centro">
+                    <div class="video-wrapper col-xl-3 col-lg-5 col-md-3 col-sm-5">
+                        <div id="video-centro">
                             <video src="videos/roraima.mp4"  width="100%"></video>
                         </div>
                     </div>
-                        <div id="video-wrapper" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
-                        <div class="video-centro">
+                        <div class="video-wrapper col-xl-3 col-lg-5 col-md-3">
+                        <div id="video-der">
                             <video src="videos/roraima.mp4"  width="100%"></video>
                         </div>
                         </div>
-                       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-2 col-1 next">
+                       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-2 col-2 next">
                             <a href=""><img src="imagenes/next.png"></a> 
                         </div>    
                     
-                    </div>
+                  </div>
                 </div>
             </div>
         </section>
