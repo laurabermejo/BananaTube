@@ -33,9 +33,15 @@ body{
     height: 300px;
 }
 
+.video-wrapper{
+    padding: 1%;
+    padding-top: 8%;
+    }
 .next{
-    margin-top: 4%;
     align-content: center;
+}
+.next img{
+    width: 40px;
 }
 
 #foto img{
@@ -90,8 +96,11 @@ body{
     }
     #foto{
       padding-top: 180px;
-      padding-left: 4%;
-        
+      padding-left: 4%;   
+    }
+    .next{
+        margin-top: 15%;
+        margin-left: -73px;
     }
 }
 
@@ -111,6 +120,7 @@ body{
     #foto{
         padding-top: 100px;
     }
+    
 }
 @media screen and (max-width:780px){
     #info h3{
@@ -130,8 +140,8 @@ body{
         max-height: 4px;
     }
     .next{
-      margin-top: 5%;
-      margin-left: 80%;
+      margin-top: 12%;
+      margin-left: -79px;
    }
     #video-der{
         display: none;
