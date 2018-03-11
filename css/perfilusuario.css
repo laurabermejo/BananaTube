@@ -33,12 +33,30 @@ body{
     height: 300px;
 }
 
+
 .video-wrapper{
     padding: 1%;
     padding-top: 8%;
     }
+
+/*Play hover
+
+
+.video-wrapper video{
+    position: relative;
+    z-index: -2; 
+}
+.video-wrapper div:hover {
+    background: url(../imagenes/play%20alternativo.png) no-repeat;
+    background-size: 30%;
+    background-position: center;
+    z-index: 2;
+}
+
+*/
 .next{
     align-content: center;
+    z-index: 3;
 }
 .next img{
     width: 40px;
@@ -85,6 +103,8 @@ body{
     height: 400px;
 }
 
+
+
 /*MEDIA QUERIES*/
     
         
@@ -100,10 +120,15 @@ body{
     }
     .next{
         margin-top: 15%;
-        margin-left: -73px;
+        margin-left: -97px;
     }
 }
 
+@media screen and (max-width:1600px){
+     .next{
+        margin-left: -80px;
+    }
+}
 @media screen and (max-width:990px){
     #info button {
         font-size: 12px;
@@ -120,7 +145,9 @@ body{
     #foto{
         padding-top: 100px;
     }
-    
+     .next{
+        margin-left: -87px;
+    }
 }
 @media screen and (max-width:780px){
     #info h3{
@@ -140,8 +167,8 @@ body{
         max-height: 4px;
     }
     .next{
-      margin-top: 12%;
-      margin-left: -79px;
+      margin-top: 10%;
+      margin-left: -94px;
    }
     #video-der{
         display: none;
@@ -179,7 +206,7 @@ body{
     }
     .next{
       margin-top: 20%;
-      margin-left: 35%;
+      margin-left: -60%;
       transform: rotate(0.25turn)
    }
 }
