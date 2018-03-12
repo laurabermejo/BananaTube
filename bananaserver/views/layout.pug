@@ -1,7 +1,14 @@
 doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+html(lang="es")
+    head
+        meta(charset="utf-8")
+        title BananaTube
+        link(rel="stylesheet",href="stylesheets/bootstrap.css")
+        link(rel="stylesheet",href="stylesheets/index.css",media="all")
+        script(src="javascripts/jquery-3.3.1.slim.js")
+        script(src="javascripts/bootstrap.bundle.js")
+        script(defer, src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
+        script(src="javascripts/index.js")
+        
+    body
     block content

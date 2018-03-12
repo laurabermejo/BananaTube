@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/raleway2.woff2) format("woff2"),
+         url(../fonts/raleway2.ttf) format("truetype");
+}
+@font-face{
+    font-family: "ReenieBeanie";
+        src: url(../fonts/ReenieBeanie.woff2) format("woff2"),
+             url(../fonts/ReenieBeanie.ttf) format("truetype");
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+/*header*/
+header{
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
+}
+#login{
+    margin-top: 25px;
+}
+#login a{
+    color:#1f5941;
+    padding-right: 5px;
+    border-right: 1px solid #1f5941;
+    text-decoration: none; 
+}
+#login a:hover{
+    color: #3EAC7E;
+    text-decoration: none; 
+}
+
+/*insection1*/
+.margin{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;}
+
+#imgbgsection1{
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#formindex{
+    padding: 100px;
+}
+
+
+#buscador::placeholder{
+    font-size: 0.8em;
+}
+.btn-dark{
+    height: 40px;
+    font-size: 12px;
+}
+#insectiona{
+        background-color: rgba(255, 255, 255,0.5);
+
+        margin-top: 70px;
+        height: 300px;
+}
+#insectiona h3{
+    color: #1F5941;
+    font-family: "ReenieBeanie", cursive;
+    font-size: 2.5em;
+    padding: 27px;
+    margin-top: 30px;
+}
+
+#bloquesin h4{
+    color:#454545;
+    padding: 18px;
+    margin-left: 0px;
+    font-variant: small-caps;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    }
+#bloquesin p{
+    color:#454545;
+    line-height: 20px;
+}
+@media screen and (min-width: 804px) and (max-width: 1240px) {
+    #insectiona{
+         height: 300px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 803px) {
+    #insectiona{
+         height: 450px;
+    }
+}
+@media screen and (max-width: 500px){
+    #insectiona{
+         height: 500px;
+    }
+}  
+
+/*insection2*/
+
+
+#fondo {
+    background-image: url(../imagenes/backsec2.png);
+    color: #454545;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 400px;
+    width: 100%;
+}
+
+#prim{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+#seg{
+    margin-top: 50px;
+    
+
+}
+#fondo img{
+    margin-top: 30px;
+    padding: 0 auto;
+    width: 550px;
+
+
+}
+#fondo p{
+    font-family: "ReenieBeanie";
+    font-size: 20px;
+}
+
+
+@media screen  and (min-width: 992px) and (max-width: 1200px)  {
+    #fondo img{
+        width: 400px;
+        padding-left: 80px;
+    }
+    #fondo p{
+        font-size: 24px;
+    }
+    #fondo{
+        height: 230px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px)  {
+    #fondo img{
+        width: 220px;
+    }
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px)  {
+    #fondo img{
+        width: 220px;
+    }
+    #fondo p{
+        font-size: 14px;
+    }
+    #fondo{
+        height: 230px;
+    }
+}
+
+/* footer*/
+footer{
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-right: 15px;
+    background-color: #F2F2F2;
+    font-family: Raleway,arial,sans-serif;
+    font-size: 14px;
+    color: #454545; 
+}
+
+footer li{
+    list-style-type:none;
+}
+
+footer a{
+    color: #1F5941;
+    text-decoration: none;
+    padding: 0 auto;
+}
+footer a:hover{
+    color:#3EAC7E;
+    text-decoration: none;
+}
+/*responsive*/
+@media screen and (max-width:778px){
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:640px){
+    footer{
+        font-size: 10px;
+        height: 100px;
+    }
+}

@@ -42,7 +42,7 @@
                     </center>
                     <h4>Laura</h4>
                         <div  class="linkedin">
-                           <a   class="linkedin" href="https://www.linkedin.com/in/laurabermejocarrasco/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
+                           <a   href="https://www.linkedin.com/in/laurabermejocarrasco/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
                         </div>
                         <h5>Dirección de tecnología</h5>
                         <p>Nuestra experta en comunicación audiovisual y front-end contrasta su trabajo entre monitores y nuevas tecnologías con su pasión por la naturaleza. Para ella no hay mejor opción que perderse por los bosques y las playas de Galicia. Sueña con ir a Noruega, dormir en el hielo y ver la aurora boreal.
@@ -55,7 +55,7 @@
                         </center>
                     <h4>Virginia</h4>
                          <div  class="linkedin">
-                          <a  class="linkedin"  href="https://www.linkedin.com/in/virginia-villaplana-fern%C3%A1ndez/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
+                          <a  href="https://www.linkedin.com/in/virginia-villaplana-fern%C3%A1ndez/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
                          </div>
                         <h5>Dirección de diseño</h5>
                         <p>La creatividad es su marca personal, dedica gran parte de su vida al diseño, la pintura, la música y la escritura. Estudió periodismo y comunicación audiovisual. El resto del tiempo lo dedica a viajar, vive entre Austria y España, adora Holanda y su próximo destino será Brasil. El continente asiático se incluye en su lista de deseos y pretende desmarcarlo muy pronto.
@@ -67,8 +67,8 @@
                     </center>
                     <h4>Noemí</h4>
                        <div  class="linkedin">
-                          <a class="linkedin" href="https://www.linkedin.com/in/noem%C3%AD-perlopez/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
-                        <div  class="linkedin">
+                          <a href="https://www.linkedin.com/in/noem%C3%AD-perlopez/"><img src="imagenes/socialmedia/linkedin.png" alt="Linkedin"/></a>
+                        <div>
                         <h5>Dirección de UX</h5>
                         <p>En otra vida fue sommelier de té y eso se refleja en su capacidad de distinguir los matices y encontrar la armonía en cada detalle. Sus estudios de Biología le permiten llevar la experiencia de usuario a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
                         </p>      

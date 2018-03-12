@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/laurabermejo/BananaTube/issues"
   },
-  "homepage": "https://github.com/laurabermejo/BananaTube#readme"
+  "homepage": "https://github.com/laurabermejo/BananaTube#readme",
+  "dependencies": {
+    "mongoose": "^5.0.9"
+  }
 }
