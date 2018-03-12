@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/reproduccion.css"/>
     <link rel="stylesheet" href="css/inheader2.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
     
@@ -14,18 +15,20 @@
 
 </head>
 <body>
+    <div class="container-fluid">
     <!--Encabezado-->
         <header class="row"><?php include "includes/inheader2.html";?></header>
     <!--Fin encabezado-->
     <!--Contenido principal-->
-    <section id="contenido" class="container">
+    <section id="contenido" class="row">
         <section id="video" class="row">
-            <div id="video-wrapper"  class="col-xl-12">
+            <div class="col-12">
+            <div id="video-wrapper" class="row">
                 <div class="video-centro">
                     <video src="videos/roraima.mp4" controls width="50%"></video>
                 </div>
             </div>
-            <div id="infovideo" class="col-xl-12">
+            <div id="infovideo" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <h3>Paseo por Roraima</h3>
                     <div class="row col-xl-6">
                         <div class="col-xl-12 text-left">
@@ -39,10 +42,10 @@
                             </p>
                         </div>
                 </div>
-                <div id="repro-video" class="col-xl-6 text-right">Reproducciones<i class="fa fa-share-alt" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <div id="repro-video" class="col-xl-3 col-lg-3 col-md-3 text-right">Reproducciones<i class="fa fa-share-alt" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i>
                         </div>
             </div>
-           
+           </div>
         </section>
     <!-- info video y social-->
         <section id="comentarios" class="row">
@@ -75,9 +78,12 @@
             </div>
         </section>
     </section>
+        
     <!--Fin contenido principal-->
     <!--Footer-->
     <footer class="row" ><?php include "includes/footer.html";?></footer>
     <!--Fin de footer-->
+
+    </div>
 </body>
 </html>

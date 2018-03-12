@@ -11,11 +11,6 @@
 }
 /*Fin fuentes*/
 
-/*Header*/
-header{
-    background-color: #F2F2F2;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -25,14 +20,10 @@ body{
 
 /*cuerpo*/
 #video-wrapper{
-    background-color:#454545;
+    margin-left: 100px;
     width:100%;
-    overflow:hidden;
 }
 
-.video-centro{
-    text-align:center;
-}
 
 #infovideo, #hashtag, #comentarios, #infodestino, #datosint #vidrel{
     overflow:hidden;
@@ -136,31 +127,7 @@ a {
 /*Fin botones*/
 }
 
-/* footer*/
-footer{
-    background-color: #F2F2F2;
-    font-family: Raleway,arial,sans-serif;
-    font-size: 14px;
-    color: #454545; 
-}
-footer{
-    margin-top: 20px;
-    padding-right: 15px;
-}
 
-footer li{
-    list-style-type:none;
-}
-
-footer a{
-    color: #1F5941;
-    text-decoration: none;
-    padding: 0 auto;
-}
-footer a:hover{
-    color:#3EAC7E;
-    text-decoration: none;
-}
 /*responsive*/
 @media screen and (max-width:778px){
     footer{
