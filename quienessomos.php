@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-xl-6">
                     <center>
-                        <img id="marianspic" src="imagenes/monkey%20(1).png" alt="Marian"/>
+                        <img id="marianspic" src="imagenes/monkey1.png" alt="Marian"/>
                     </center>
                     <h4>Marian</h4>
                     <div  class="linkedin">
@@ -72,15 +72,14 @@
                         <h5>Dirección de UX</h5>
                         <p>En otra vida fue sommelier de té y eso se refleja en su capacidad de distinguir los matices y encontrar la armonía en cada detalle. Sus estudios de Biología le permiten llevar la experiencia de usuario a otro nivel. Le encantaría ir a Madagascar, se confiesa enamorada de Italia y si tuviese que elegir un lugar para desconectar sería sin duda Budapest.
                         </p>      
-            </div>
-             </div>  
-                 </div>
+                    </div>
+                 </div>  
+                </div>
         </section>  
     <section class="row" id="derechos">
         <div class="col-xl-12">Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
     </section>
         
- <footer class="row"><?php include "includes/footer.html";?></footer>
-     
-    </body>
+    <footer class="row"><?php include "includes/footer.html";?></footer>
+</body>
 </html>

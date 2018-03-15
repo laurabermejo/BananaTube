@@ -19,7 +19,7 @@
             <?php include "includes/inheader2.html";?> </header>
         <section id="portada">
             <div id="foto">
-                <img src="imagenes/monkey%20(1).png" alt="Foto de perfil" class="col-xl-2 offset-xl-5 col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-3 offset-sm-5 col-4 offset-4" />
+                <img src="imagenes/monkey1.png" alt="Foto de perfil" class="col-xl-2 offset-xl-5 col-lg-2 offset-lg-5 col-md-2 offset-md-5 col-sm-3 offset-sm-5 col-4 offset-4" />
             </div>
         </section>
         <section id="info">
